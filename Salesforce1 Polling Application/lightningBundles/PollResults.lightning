@@ -1,0 +1,46 @@
+<LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<file>
+		<name>PollResults.cmp</name>
+		<xml>
+			<aura:component>
+				<aura:attribute
+					type="sfsiPoll__Poll_Option__c[]"
+					name="options"/>
+				<center>
+					<table
+						style="width: 80%;"
+						class="poll-results">
+						<tbody>
+							<aura:iteration
+								items="{!v.options}"
+								var="opt">
+								<tr>
+									<td style="width: 6%;">{!opt.sfsiPoll__Response_Ratio__c}%</td>
+									<td style="width: 94%;">
+										<div
+											style="{!'white-space:nowrap; width:' + opt.sfsiPoll__Response_Ratio__c + '%;'}"
+											class="{!opt.sfsiPoll__Order__c == '1' ? 'first-option' :                                         	opt.sfsiPoll__Order__c == '2' ? 'second-option' :                                         		opt.sfsiPoll__Order__c == '3' ? 'third-option' :                                        			opt.sfsiPoll__Order__c == '4' ? 'fourth-option' : 'fifth-option'}">                                {!opt.Name}                            </div>
+									</td>
+								</tr>
+							</aura:iteration>
+						</tbody>
+					</table>
+				</center>
+			</aura:component>
+		</xml>
+	</file>
+	<file>
+		<name>PollResults.cmp-meta.xml</name>
+		<xml>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+				<apiVersion>36.0</apiVersion>
+				<description>DESCRIPTION</description>
+			</AuraDefinitionBundle>
+		</xml>
+	</file>
+	<file>
+		<name>PollResults.css</name>
+		<text>.THIS .first-option {    background-color: #F6B220;}.THIS .second-option {    background-color: #2A7DE2;}.THIS .third-option {    background-color: #00BD70;}.THIS .fourth-option {    background-color: #665EC7;}.THIS .fifth-option {    background-color: #EA4E3C;}.THIS table.poll-results tbody tr {    border: 1px dotted lightgrey;}</text>
+	</file>
+</LightningBundle>

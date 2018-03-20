@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <dataCategory>
+                        <label>Floor</label>
+                        <name>Floor</name>
+                    </dataCategory>
+                    <label>Building</label>
+                    <name>Building</name>
+                </dataCategory>
+                <label>department</label>
+                <name>department</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Business Unit</label>
+                <name>Business_Unit</name>
+            </dataCategory>
+            <label>Company</label>
+            <name>Company</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>AnotherTest</label>
+    <objectUsage/>
+</DataCategoryGroup>

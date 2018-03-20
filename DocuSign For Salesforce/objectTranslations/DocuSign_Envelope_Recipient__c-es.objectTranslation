@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Destinatario de sobre de DocuSign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Destinatario de sobre de DocuSign</value>
+    </caseValues>
+    <fields>
+        <help><!-- ACCESS CODE --></help>
+        <label>CÓDIGO DE ACCESO</label>
+        <name>Access_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN ENVELOPE RECIPIENT CONTACT ID --></help>
+        <label>CONTACTO</label>
+        <name>DSER_ContactID__c</name>
+        <relationshipLabel>Destinatario del sobre de DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>CustomFeaturesEx</label>
+        <name>DSER_CustomFeaturesEx__c</name>
+    </fields>
+    <fields>
+        <label>CustomFeatures</label>
+        <name>DSER_CustomFeatures__c</name>
+    </fields>
+    <fields>
+        <label>CustomId</label>
+        <name>DSER_CustomId__c</name>
+    </fields>
+    <fields>
+        <label>CustomName</label>
+        <name>DSER_CustomName__c</name>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN ENVELOPE RECIPIENT LEAD ID --></help>
+        <label>CLIENTE POTENCIAL</label>
+        <name>DSER_LeadID__c</name>
+        <relationshipLabel>Destinatario del sobre de DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN ENVELOPE RECIPIENT USER ID --></help>
+        <label>USUARIO</label>
+        <name>DSER_UserID__c</name>
+        <relationshipLabel>Destinatario del sobre de DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN ENVELOPE ID --></help>
+        <label>SOBRE DE DOCUSIGN</label>
+        <name>DocuSign_EnvelopeID__c</name>
+        <relationshipLabel>Destinatario del sobre de DocuSign</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN RECIPIENT ROLE --></help>
+        <label>FUNCIÓN DE SIGNATARIO DE DOCUSIGN</label>
+        <name>DocuSign_Recipient_Role__c</name>
+        <picklistValues>
+            <masterLabel>Company 1</masterLabel>
+            <translation><!-- Company 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company 2</masterLabel>
+            <translation><!-- Company 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer 1</masterLabel>
+            <translation><!-- Customer 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer 2</masterLabel>
+            <translation><!-- Customer 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN SIGNATURE  NAME --></help>
+        <label>NOMBRE DE FIRMA DE DOCUSIGN</label>
+        <name>DocuSign_Signature_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- DOCUSIGN SIGNER TYPE --></help>
+        <label>TIPO DE SIGNATARIO DE DOCUSIGN</label>
+        <name>DocuSign_Signer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Address recipients</masterLabel>
+            <translation><!-- Address recipients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Copy</masterLabel>
+            <translation><!-- Carbon Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Delivery</masterLabel>
+            <translation><!-- Certified Delivery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manage envelope</masterLabel>
+            <translation><!-- Manage envelope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sign in person</masterLabel>
+            <translation><!-- Sign in person --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signer</masterLabel>
+            <translation><!-- Signer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Cuerpo del mensaje de correo electrónico</label>
+        <name>Email_Body__c</name>
+    </fields>
+    <fields>
+        <label>Asunto del correo electrónico</label>
+        <name>Email_Subject__c</name>
+    </fields>
+    <fields>
+        <help><!-- $ID CHECK --></help>
+        <label>COMPROBACIÓN DE ID</label>
+        <name>ID_Check__c</name>
+    </fields>
+    <fields>
+        <label>Código de idioma</label>
+        <name>LanguageCode__c</name>
+    </fields>
+    <fields>
+        <label>IDIOMA</label>
+        <name>Language__c</name>
+    </fields>
+    <fields>
+        <label>Correo electrónico del destinatario</label>
+        <name>Recipient_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Note for Recipient --></help>
+        <label>Nota del destinatario</label>
+        <name>Recipient_Note_Long__c</name>
+    </fields>
+    <fields>
+        <help><!-- NOTE FOR RECIPIENT --></help>
+        <label>NOTA DEL DESTINATARIO</label>
+        <name>Recipient_Note__c</name>
+    </fields>
+    <fields>
+        <label>RoleName</label>
+        <name>RoleName__c</name>
+    </fields>
+    <fields>
+        <help><!-- VALUE ASSOCIATED WITH THE DOCUSIGN RECIPIENT ROLE. THIS VALUE IS USED TO MAP TO DEFAULT ANCHOR TAGS IN DOCUMENTS. --></help>
+        <label>ROLEVALUE</label>
+        <name>RoleValue__c</name>
+    </fields>
+    <fields>
+        <help><!-- ROUTING ORDER --></help>
+        <label>ORDEN DE ENVÍO</label>
+        <name>Routing_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- SALESFORCE RECIPIENT TYPE --></help>
+        <label>TIPO DE DESTINATARIO DE SALESFORCE</label>
+        <name>Salesforce_Recipient_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User</masterLabel>
+            <translation><!-- User --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Correo electrónico de firma en persona</label>
+        <name>SignInPersonEmail__c</name>
+    </fields>
+    <fields>
+        <label>NOMBRE DE FIRMA EN PERSONA</label>
+        <name>SignInPersonName__c</name>
+    </fields>
+    <fields>
+        <label>SignNow</label>
+        <name>SignNow__c</name>
+    </fields>
+    <fields>
+        <help><!-- VALIDATION MESSAGE --></help>
+        <label>MENSAJE DE VALIDACIÓN</label>
+        <name>Validation_Message__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>DocuSign Envelope Recipient Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- DocuSign Envelope Recipient Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Test Auto Response</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.BusinessHoursId</field>
+                <operation>greaterThan</operation>
+                <value>Default</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Origin</field>
+                <operation>equals</operation>
+                <value>Chatter Answers,Phone</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>ss@df.com</senderEmail>
+            <senderName>Demo User</senderName>
+            <template>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.CreatedById</field>
+                <operation>contains</operation>
+                <value>Demo</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <senderEmail>ss@df.com</senderEmail>
+            <senderName>Demo</senderName>
+            <template>unfiled$public/SalesNewCustomerEmail</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

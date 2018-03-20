@@ -1,0 +1,10 @@
+<apex:page >
+    <html>
+        <head>
+            Test Head
+        </head>
+        <body>
+			This is a test to see how the &mdash; works with and without the&mdash;character.            
+        </body>
+    </html>
+</apex:page>

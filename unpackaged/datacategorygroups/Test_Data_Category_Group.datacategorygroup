@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>World</label>
+            <name>World</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>USA</label>
+                <name>USA</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Canada</label>
+                <name>Canada</name>
+            </dataCategory>
+            <label>NAM</label>
+            <name>NAM</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Coloumbia</label>
+                <name>Coloumbia</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bolivia</label>
+                <name>Bolivia</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Venezuela</label>
+                <name>Venezuela</name>
+            </dataCategory>
+            <label>LAM</label>
+            <name>LAM</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>Test Category group</description>
+    <label>Test Data Category Group</label>
+    <objectUsage>
+        <object>Question</object>
+    </objectUsage>
+</DataCategoryGroup>

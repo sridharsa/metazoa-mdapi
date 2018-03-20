@@ -1,0 +1,41 @@
+<TerritoryModel xmlns="http://soap.sforce.com/2006/04/metadata">
+	<file>
+		<name>Territory_Model2.territory2Model</name>
+		<xml>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<Territory2Model
+				xmlns="http://soap.sforce.com/2006/04/metadata"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+				<customFields>
+					<name>Test_Territory_Model_Field__c</name>
+					<value xsi:nil="true"/>
+				</customFields>
+				<name>Territory Model2</name>
+			</Territory2Model>
+		</xml>
+	</file>
+	<folder>
+		<name>territories</name>
+		<file>
+			<name>TerrModel2_NewTerr_WestType.territory2</name>
+			<xml>
+				<?xml version="1.0" encoding="UTF-8"?>
+				<Territory2
+					xmlns="http://soap.sforce.com/2006/04/metadata"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<accountAccessLevel>All</accountAccessLevel>
+					<caseAccessLevel>Edit</caseAccessLevel>
+					<contactAccessLevel>Edit</contactAccessLevel>
+					<customFields>
+						<name>Test_field__c</name>
+						<value xsi:nil="true"/>
+					</customFields>
+					<description>TerrModel2_NewTerr_WestType</description>
+					<name>TerrModel2_NewTerr_WestType</name>
+					<opportunityAccessLevel>Edit</opportunityAccessLevel>
+					<territory2Type>West</territory2Type>
+				</Territory2>
+			</xml>
+		</file>
+	</folder>
+</TerritoryModel>

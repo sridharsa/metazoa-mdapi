@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardPortalPages>true</allowStandardPortalPages>
+    <allowStandardSearch>false</allowStandardSearch>
+    <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
+    <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+    <changePasswordPage>ChangePassword</changePasswordPage>
+    <chatterAnswersForgotPasswordConfirmPage>ChatterAnswersForgotPasswordConfirm</chatterAnswersForgotPasswordConfirmPage>
+    <chatterAnswersForgotPasswordPage>ChatterAnswersForgotPassword</chatterAnswersForgotPasswordPage>
+    <chatterAnswersHelpPage>ChatterAnswersHelp</chatterAnswersHelpPage>
+    <chatterAnswersLoginPage>ChatterAnswersLogin</chatterAnswersLoginPage>
+    <chatterAnswersRegistrationPage>ChatterAnswersRegistration</chatterAnswersRegistrationPage>
+    <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
+    <description>This is a test site</description>
+    <fileNotFoundPage>FileNotFound</fileNotFoundPage>
+    <genericErrorPage>Exception</genericErrorPage>
+    <inMaintenancePage>InMaintenance</inMaintenancePage>
+    <inactiveIndexPage>InMaintenance</inactiveIndexPage>
+    <indexPage>IdeasHome</indexPage>
+    <masterLabel>My New SS Site</masterLabel>
+    <portal>Partner Portal</portal>
+    <requireHttps>true</requireHttps>
+    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
+    <siteAdmin>newss@df.com</siteAdmin>
+    <siteTemplate>SiteTemplate</siteTemplate>
+    <siteType>Visualforce</siteType>
+    <subdomain>newss-developer-edition</subdomain>
+</CustomSite>

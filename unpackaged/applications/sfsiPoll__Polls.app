@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <label>Polls</label>
+    <tab>sfsiPoll__Poll_Question__c</tab>
+    <tab>FormFactory</tab>
+</CustomApplication>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Poll Option --></label>
+        <lookupFilter>
+            <errorMessage><!-- The selected option is not associated with the question. --></errorMessage>
+        </lookupFilter>
+        <name>sfsiPoll__Poll_Option__c</name>
+        <relationshipLabel><!-- Poll Responses --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Poll Question --></label>
+        <name>sfsiPoll__Poll_Question__c</name>
+        <relationshipLabel><!-- Poll Responses --></relationshipLabel>
+    </fields>
+</CustomObjectTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>adhoc</type>
+            </approver>
+        </assignedApprover>
+        <label>Step 1</label>
+        <name>Step_1</name>
+    </approvalStep>
+    <emailTemplate>unfiled$public/CommunityWelcomeEmailTemplate</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Account.Account_Depth__c</field>
+            <operation>equals</operation>
+            <value>Deeper,Deepest,Deep</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Active__c</field>
+            <operation>equals</operation>
+            <value>Yes,Maybe</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>true</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Account Approval Process</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

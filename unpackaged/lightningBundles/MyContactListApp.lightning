@@ -1,0 +1,20 @@
+<LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<file>
+		<name>MyContactListApp.app</name>
+		<xml>
+			<aura:application>
+				<c:MyContactList/>
+			</aura:application>
+		</xml>
+	</file>
+	<file>
+		<name>MyContactListApp.app-meta.xml</name>
+		<xml>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+				<apiVersion>40.0</apiVersion>
+				<description>A Lightning Component Bundle</description>
+			</AuraDefinitionBundle>
+		</xml>
+	</file>
+</LightningBundle>

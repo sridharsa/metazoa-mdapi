@@ -1,0 +1,78 @@
+<LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<file>
+		<name>PollOptions.cmp</name>
+		<xml>
+			<aura:component controller="sfsiPoll.PollController">
+				<aura:attribute
+					type="sfsiPoll__Poll_Question__c"
+					name="poll"/>
+				<aura:attribute
+					type="sfsiPoll__Poll_Option__c[]"
+					name="options"/>
+				<aura:attribute
+					type="boolean"
+					name="hasResponded"/>
+				<aura:attribute
+					type="string"
+					name="errorMsg"/>
+				<aura:handler
+					name="init"
+					value="{!this}"
+					action="{!c.doInit}"/>
+				<div style="clear: both; text-align: center">
+					<aura:renderIf isTrue="{!v.hasResponded}">
+						<sfsiPoll:PollResults options="{!v.options}"/>
+					</aura:renderIf>
+					<aura:renderIf isTrue="{!v.hasResponded == null || v.hasResponded == false}">
+						<aura:renderIf isTrue="{!v.poll.sfsiPoll__Image__c != null}">
+							<br/>
+							<div>
+								<img
+									class="large-image"
+									src="{!v.poll.sfsiPoll__Image__c}"/>
+							</div>
+						</aura:renderIf>
+						<br/>
+						<div>
+							<aura:iteration
+								items="{!v.options}"
+								var="opt">
+								<ui:button
+									label="{!opt.Name}"
+									press="{!c.optionClick}"></ui:button>
+							</aura:iteration>
+							<aura:renderIf isTrue="{!v.errorMsg != null}">
+								<br/>
+								<div
+									class="alert alert-danger"
+									role="alert">{!v.errorMsg}</div>
+							</aura:renderIf>
+						</div>
+					</aura:renderIf>
+				</div>
+			</aura:component>
+		</xml>
+	</file>
+	<file>
+		<name>PollOptions.cmp-meta.xml</name>
+		<xml>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+				<apiVersion>36.0</apiVersion>
+				<description>DESCRIPTION</description>
+			</AuraDefinitionBundle>
+		</xml>
+	</file>
+	<file>
+		<name>PollOptions.css</name>
+		<text>.THIS .large-image {    max-width: 100%;    height: auto;}</text>
+	</file>
+	<file>
+		<name>PollOptionsController.js</name>
+		<text>({	doInit : function(component, event, helper) {		helper.loadOptions(component);	},	optionClick : function(component, event, helper) {        var target;        if(event.getSource){            target = event.getSource();            var selOption = target.get(&apos;v.label&apos;);            helper.saveResponse(component, selOption);        }	}})</text>
+	</file>
+	<file>
+		<name>PollOptionsHelper.js</name>
+		<text>({	loadOptions : function(cmp) {        // Load all polls data        var action = cmp.get(&quot;c.getOptions&quot;);        action.setParams({ question : cmp.get(&quot;v.poll&quot;) });                var self = this;        action.setCallback(this, function(response){            var state = response.getState();            if (state === &quot;SUCCESS&quot;) {                cmp.set(&quot;v.options&quot;, response.getReturnValue());            }        });        $A.enqueueAction(action);			},    saveResponse : function(cmp, selOption){        var action = cmp.get(&quot;c.saveResponse&quot;);        action.setParams({ question : cmp.get(&quot;v.poll&quot;), optionName : selOption});                action.setCallback(this, function(response){            var state = response.getState();                        if (state === &quot;SUCCESS&quot;) {                cmp.set(&quot;v.options&quot;, response.getReturnValue());                cmp.set(&quot;v.hasResponded&quot;, true);            } else {                cmp.set(&quot;v.errorMsg&quot;, &quot;Oh Snap! There was an error in saving your response. Please contact your system administrator.&quot;);            }        });        $A.enqueueAction(action);		    }})</text>
+	</file>
+</LightningBundle>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Testing Custom Permissions again</description>
+    <label>My Test Custom Permission2</label>
+    <requiredPermission>
+        <customPermission>My_Test_Custom_Permission</customPermission>
+        <dependency>true</dependency>
+    </requiredPermission>
+</CustomPermission>

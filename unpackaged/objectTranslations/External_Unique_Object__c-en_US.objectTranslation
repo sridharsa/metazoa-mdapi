@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>External Unique Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>External Unique Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- External Unique Num --></label>
+        <name>External_Unique_Num__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other text field --></label>
+        <name>Other_text_field__c</name>
+    </fields>
+    <layouts>
+        <layout>External Unique Object Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

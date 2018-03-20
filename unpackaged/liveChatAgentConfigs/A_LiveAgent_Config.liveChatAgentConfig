@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatAgentConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Custom%3A Marketing Profile</profile>
+            <profile>Custom%3A Sales Profile</profile>
+            <profile>Custom%3A Support Profile</profile>
+            <profile>ContractManager</profile>
+        </profiles>
+        <users>
+            <user>newss@df.com</user>
+        </users>
+    </assignments>
+    <autoGreeting>Welcome!</autoGreeting>
+    <customAgentName>Support Agent</customAgentName>
+    <enableAgentFileTransfer>false</enableAgentFileTransfer>
+    <enableAgentSneakPeek>true</enableAgentSneakPeek>
+    <enableAssistanceFlag>false</enableAssistanceFlag>
+    <enableAutoAwayOnDecline>false</enableAutoAwayOnDecline>
+    <enableAutoAwayOnPushTimeout>false</enableAutoAwayOnPushTimeout>
+    <enableChatConferencing>true</enableChatConferencing>
+    <enableChatMonitoring>true</enableChatMonitoring>
+    <enableChatTransferToAgent>true</enableChatTransferToAgent>
+    <enableChatTransferToButton>true</enableChatTransferToButton>
+    <enableChatTransferToSkill>true</enableChatTransferToSkill>
+    <enableLogoutSound>false</enableLogoutSound>
+    <enableNotifications>true</enableNotifications>
+    <enableRequestSound>false</enableRequestSound>
+    <enableSneakPeek>true</enableSneakPeek>
+    <enableVisitorBlocking>false</enableVisitorBlocking>
+    <enableWhisperMessage>true</enableWhisperMessage>
+    <label>A LiveAgent Config</label>
+    <supervisorSkills>
+        <skill>Dot_Net</skill>
+        <skill>Java</skill>
+    </supervisorSkills>
+    <transferableSkills>
+        <skill>Dot_Net</skill>
+        <skill>Java</skill>
+    </transferableSkills>
+</LiveChatAgentConfig>

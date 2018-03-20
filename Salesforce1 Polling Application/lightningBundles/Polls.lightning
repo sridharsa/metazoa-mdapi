@@ -1,0 +1,131 @@
+<LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<file>
+		<name>Polls.cmp</name>
+		<xml>
+			<aura:component
+				controller="sfsiPoll.PollController"
+				implements="flexipage:availableForAllPageTypes">
+				<ltng:require styles="/resource/sfsiPoll__bootstrapNamespaced"/>
+				<aura:attribute
+					name="polls"
+					type="sfsiPoll__Poll_Question__c[]"/>
+				<aura:handler
+					name="init"
+					value="{!this}"
+					action="{!c.doInit}"/>
+				<aura:handler
+					event="aura:waiting"
+					action="{!c.showSpinner}"/>
+				<aura:handler
+					event="aura:doneWaiting"
+					action="{!c.hideSpinner}"/>
+				<center>
+					<ui:spinner aura:id="spinner"></ui:spinner>
+				</center>
+				<!-- Iterate over the list of polls and display them -->
+				<div class="bootstrap-sf1">
+					<div
+						class="container"
+						style="width: inherit;">
+						<div class="row">
+							<div class="col-md-9">
+								<ul class="media-list list-group">
+									<aura:iteration
+										var="poll"
+										items="{!v.polls}">
+										<sfsiPoll:PollQuestion pollQuestion="{!poll}"/>
+									</aura:iteration>
+								</ul>
+							</div>
+						</div>
+						<center>
+							<aura:if isTrue="{!v.polls.length == 0}">
+								<h5>There are no polls active at this time.</h5>
+							</aura:if>
+							<!-- ui:button label="New Poll" press="{!c.navHome}"/ -->
+						</center>
+						<br/>
+					</div>
+				</div>
+			</aura:component>
+		</xml>
+	</file>
+	<file>
+		<name>Polls.cmp-meta.xml</name>
+		<xml>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+				<apiVersion>36.0</apiVersion>
+				<description>DESCRIPTION</description>
+			</AuraDefinitionBundle>
+		</xml>
+	</file>
+	<file>
+		<name>Polls.css</name>
+		<text>.THIS .container {    background-color: white;}</text>
+	</file>
+	<file>
+		<name>Polls.design</name>
+		<xml>
+			<design:component label="Polls">	</design:component>
+		</xml>
+	</file>
+	<file>
+		<name>Polls.svg</name>
+		<xml>
+			<?xml version="1.0" encoding="utf-8"?>
+			<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0) -->
+			<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+				<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+				<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+				<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+				<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+				<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+				<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+				<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+				<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+			]>
+			<svg
+				version="1.1"
+				id="Layer_1"
+				xmlns:x="&ns_extend;"
+				xmlns:i="&ns_ai;"
+				xmlns:graph="&ns_graphs;"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+				x="0px"
+				y="0px"
+				viewBox="0 0 60 60"
+				enable-background="new 0 0 60 60"
+				xml:space="preserve">
+				<switch>
+					<g i:extraneous="self">
+						<path
+							fill="#953393"
+							d="M59.9,59.9H0V0h59.9V59.9z"/>
+						<g>
+							<g>
+								<path
+									fill="#8162AA"
+									d="M12.9,38.9H47c1,0,1.9,0.8,1.9,1.9v3.3c0,1-0.8,1.9-1.9,1.9H12.9c-1,0-1.9-0.8-1.9-1.9v-3.3					C11,39.8,11.8,38.9,12.9,38.9z M12.9,26.6H47c1,0,1.9,0.8,1.9,1.9v3.3c0,1-0.8,1.9-1.9,1.9H12.9c-1,0-1.9-0.8-1.9-1.9v-3.3					C11,27.5,11.8,26.6,12.9,26.6z"/>
+							</g>
+							<g>
+								<path
+									fill="#E2D3E8"
+									d="M12.9,26.6h14.2c1,0,1.9,0.8,1.9,1.9v3.3c0,1-0.8,1.9-1.9,1.9H12.9c-1,0-1.9-0.8-1.9-1.9v-3.3					C11,27.5,11.8,26.6,12.9,26.6z M12.9,13.8H47c1,0,1.9,0.8,1.9,1.9V19c0,1-0.8,1.9-1.9,1.9H12.9c-1,0-1.9-0.8-1.9-1.9v-3.3					C11,14.7,11.8,13.8,12.9,13.8z M12.9,38.9h22.8c1,0,1.9,0.8,1.9,1.9v3.3c0,1-0.8,1.9-1.9,1.9H12.9c-1,0-1.9-0.8-1.9-1.9v-3.3					C11,39.8,11.8,38.9,12.9,38.9z"/>
+							</g>
+						</g>
+					</g>
+				</switch>
+			</svg>
+		</xml>
+	</file>
+	<file>
+		<name>PollsController.js</name>
+		<text>({	doInit : function(component, event, helper) {		helper.loadPolls(component);	},    navHome : function (component, event, helper) {        var homeEvent = $A.get(&quot;e.force:createRecord&quot;);        homeEvent.setParams({            &quot;entityApiName&quot;: &quot;sfsiPoll__Poll_Question__c&quot;        });        homeEvent.fire();    },        showSpinner : function (component, event, helper) {        var spinner = component.find(&apos;spinner&apos;);        var evt = spinner.get(&quot;e.toggle&quot;);        evt.setParams({ isVisible : true });        evt.fire();        },        hideSpinner : function (component, event, helper) {       var spinner = component.find(&apos;spinner&apos;);       var evt = spinner.get(&quot;e.toggle&quot;);       evt.setParams({ isVisible : false });       evt.fire();        }})</text>
+	</file>
+	<file>
+		<name>PollsHelper.js</name>
+		<text>({    loadPolls : function(cmp) {        // Load all polls data        var action = cmp.get(&quot;c.getPolls&quot;);        var self = this;        action.setCallback(this, function(response){            var state = response.getState();            if (state === &quot;SUCCESS&quot;) {                cmp.set(&quot;v.polls&quot;, response.getReturnValue());            }        });        $A.enqueueAction(action);    }})</text>
+	</file>
+</LightningBundle>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Adam Bar</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Adam Bars</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adam Bar Picklist --></label>
+        <name>Adam_Bar_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>123</masterLabel>
+            <translation><!-- 123 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>default</masterLabel>
+            <translation><!-- default --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Build Date --></label>
+        <name>Build_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Source --></label>
+        <name>Referral_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- controller --></label>
+        <name>controller__c</name>
+        <picklistValues>
+            <masterLabel>one</masterLabel>
+            <translation><!-- one --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three</masterLabel>
+            <translation><!-- three --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two</masterLabel>
+            <translation><!-- two --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- dependent --></label>
+        <name>dependent__c</name>
+        <picklistValues>
+            <masterLabel>one_112311</masterLabel>
+            <translation><!-- one_112311 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>one_80989</masterLabel>
+            <translation><!-- one_80989 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three_098909</masterLabel>
+            <translation><!-- three_098909 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two_090998</masterLabel>
+            <translation><!-- two_090998 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two_8978789</masterLabel>
+            <translation><!-- two_8978789 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two_987878</masterLabel>
+            <translation><!-- two_987878 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- dominant --></label>
+        <name>dominant__c</name>
+        <picklistValues>
+            <masterLabel>fifth</masterLabel>
+            <translation><!-- fifth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first</masterLabel>
+            <translation><!-- first --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fourth</masterLabel>
+            <translation><!-- fourth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>second</masterLabel>
+            <translation><!-- second --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>third</masterLabel>
+            <translation><!-- third --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- iscontrolled --></label>
+        <name>iscontrolled__c</name>
+        <picklistValues>
+            <masterLabel>fifth_989809890</masterLabel>
+            <translation><!-- fifth_989809890 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first_0980990</masterLabel>
+            <translation><!-- first_0980990 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>first_88090989</masterLabel>
+            <translation><!-- first_88090989 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fourth_09090808</masterLabel>
+            <translation><!-- fourth_09090808 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>third_0980909890</masterLabel>
+            <translation><!-- third_0980909890 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- magic number --></label>
+        <name>magic_number__c</name>
+    </fields>
+    <fields>
+        <label><!-- subservient --></label>
+        <name>subservient__c</name>
+        <picklistValues>
+            <masterLabel>four_0989090</masterLabel>
+            <translation><!-- four_0989090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>one_98989</masterLabel>
+            <translation><!-- one_98989 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three_80980989</masterLabel>
+            <translation><!-- three_80980989 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>three_9890890</masterLabel>
+            <translation><!-- three_9890890 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>two_09809890</masterLabel>
+            <translation><!-- two_09809890 --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Adam Bar Layout</layout>
+        <sections>
+            <label>
+				
+			</label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

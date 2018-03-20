@@ -1,0 +1,3861 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label>
+			
+		</label>
+        <name>BLND_DreamFactory_Utilities</name>
+    </customApplications>
+    <customApplications>
+        <label>Es SnapShot</label>
+        <name>BLND_SnapShot</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- DocuSign For Salesforce --></label>
+        <name>DocuSign_For_Salesforce</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Polls --></label>
+        <name>Polls</name>
+    </customApplications>
+    <customApplications>
+        <label>
+			
+		</label>
+        <name>Test_App</name>
+    </customApplications>
+    <customLabels>
+        <label>Valencia3
+Valencia4
+Valencia5</label>
+        <name>My_Custom_Labels_2</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AccessCode</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Account</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AccountID</name>
+    </customLabels>
+    <customLabels>
+        <label>My Accounto Info Account Namo</label>
+        <name>dsfs__AccountInfoAccountName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AccountInfoNotConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AccountMustBeConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AccountNotConfig</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AccountSuspended</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Action</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ActivateMembersError</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ActivationMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Add</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddActionOrButton</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddAdminUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddAdminUsersAddTheDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddAttachment</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddButton</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddButtons</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddDSButtonsToSF</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddDSTrusted</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddDoc</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddDocuSignButtonsToSalesforceLayout</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddDocuSignPackageForSelectedUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddMe</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddRemoteSite</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddSelectedAvailableFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddUsersAddTheDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddVerifyWithDNButton</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AdddocuSignPackageMakeUsersAdministrators</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Address1citystateandZip</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AddressRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Advanced</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__All</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AllowSenderToEditCustomFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AllowWritebackToSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AnAccountAlreadyExists</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AnErrorOccurredConnectingToDocusign</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Anchor</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AnchorText</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ApplySelectedActionToSelectedUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Approve</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AreYouSureVoidEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AtLeastOneDocumentIsRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AtLeastOneRecipientHasError</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AtLeastOneRecipientRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Attachment</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AutoSetupStep1</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AutoSetupStep2</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AutoSetupStep3</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AutoSetupStep4</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AutoSetupStep5</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AutomaticAnchorTextandTags</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__AvailableFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Back</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Black</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__BrightBlue</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__BrightRed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CannotRemoveYourselfFromActiveDocuSignUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CarbonCopy</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CertifiedDelivery</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChangeRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CharactersPerLine</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CharactersRemaining200</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChatterOnTheseEnvelopeEvents</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChatterOnTheseRecipientEvents</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChatterSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CheckIPRanges</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Checkbox</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChineseSimplified</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChooseFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChooseFilterOption</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChooseNumberOfRows</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ChooseTheFieldsToDisplay</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__City</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ClickButtonsToAddIPRanges</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ClickHere2</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ClickHereToReconnect</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ClosePopUpAfterComplete</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CloseWindow</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Company</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CompanyName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Completed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ConfigTagger</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Connect</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ConnectDSToSF</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Contact</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ContactAdminForConfig</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ContactSupport</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Contacts</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Contains</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ContinueToSendRemindersEvery</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Contract</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CorrectionPermissionMustBe</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CouldNotAuthenticateUser</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CoultNotBeActivatedDash</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Country</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CountryFieldNotCorrect</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CreateANewUserView</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CreateAccount</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CreateCustomTag</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CreateMemberStatusMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CreateNewView</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CurrentBillingPeriodEndDate</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CurrentBillingPeriodStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CurrentChatterLanguageSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CurrentSalesforceUser</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Custom</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CustomTagName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CustomTagToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CustomTags</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__CustomTagsValidation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSAccountConfig</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSClientAuthenticationException</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSClientGetRecipientListError</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSClient_USER_AUTHENTICATION_FAILED</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSRecipientEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSRecipientName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSResendResult</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSStatusResult</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSTermsConditions</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DSToSFComplete</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DarkGreen</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DarkRed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Date</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DateSigned</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DaysAfterReceipt</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DaysBeforeExpiration</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DaysBeforeRequestExpires</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Decline</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Declined</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Default</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DefaultEmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DefaultEmailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DeleteConfirmationMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DeleteUppercase</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Delivered</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Demo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Desktop</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DisableUserEmailMessageEditing</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DisableUserEmailSubjectEditing</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Disabled</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DiscardTheChangesToSelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DisplayRowsWhere</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DisplayTheDocuSignInPerson</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DisplayTheDocuSignTaggerPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DisplayingPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocTypeAttachments</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocTypeDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocTypeFeedItems</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocTypeLibraryItems</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocTypeTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignAPIGetRecipientViewError</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignAccountAlreadyConfigured</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignAccountInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignAccountRequiresActivation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignDidNotReturnStatus</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignEmailMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignEmailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignEnvelopeCancelled</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignEnvelopeNotSentOrDeilivered</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignEnvelopeSaved</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignInc</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignRecipientStatusRelatedList</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignSendingCompleted</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignStatusRelatedList</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignSystemSenderUserId</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignSystemSenderUserInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocuSignandSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Document</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocumentIsMissingName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Documents</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocusignAccountLoginSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocusignForSalesforceHasDetected</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocusignForSalesforceHasNot</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DocusignLaunchedSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Done</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DropDown</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DscustomfieldOfTypeListField</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__DssignaturerequestRequires</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Dutch</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Edit</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EditCustomTag</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EditRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EditTheUserView</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Email</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailAddressIsRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailAddressMissing</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailBodyLimitedTwoThousand</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailNotSent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailSent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EmailSubjectNotBeBlank</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnableChatterUpdates</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnableNewMobileTaggingUI</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnableReminderExpiration</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnableSalesforceCalloutLimit</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnabledAlwaysOn</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnabledOffByDefault</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnabledOnByDefault</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EndsWith</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__English</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnsureDocuSignAccountHasSession</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Envelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeCannotBeResent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeCouldNotBeCreated</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeEmaillCannotBeResent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeEmailsNotResent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeID</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeIDColon</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeInfo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeSent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__EnvelopeSigning</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Environment</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Equals</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorAddingMembersToAccountColon</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorColon</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorDeactivatingDocuSignAccounts</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorDeactivingDocuSignAccountColon</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorDeletingCustomTag</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorEquals</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorGatheringDnBInfo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorInsufficientAccessToUserObject</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorObtainingEncryptedPassword</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorProcessingCustomRecipientList</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorProcessingWebCalloutResponse</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorReadingLayouts</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorRequestingActivation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorRequestingActivationInsufficient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorRetrievingAccountSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorSavingCustomTag</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorSending</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorUnableToSendEvenlopeNotExist</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ErrorWhileProvisioningDocusign</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ExpireEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ExpireRequestIn</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FailedToUpdateLayouts</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Fax</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FeedAttachments</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FieldRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FieldsThatWillBeDisplayed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FinalSteps</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FirstName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FixedSize</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ForgotPassword</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Formatting</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Formula</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__French</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__FullName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__German</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__GetSigningURLRedirectErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Gold</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Green</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Height</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__HideTextWithAsterisks</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__HideTheNextButton</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__HideTheRemindAndExpireSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__HideTheSendNowButton</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Home</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__HostInPerson</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__HostInPersonDashSignNow</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__IAgreeAddRemoteSite</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__IAgreeToThe</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__IfYouSeeTheDocuSignLoginScreen</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__IncludeNoteInEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InitialHere</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InitialHereOptional</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InitialValue</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InputLimit</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InstallationComplete</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessTo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessToConfig</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessToContact</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessToDocusignaccountconfiguration</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessToLead</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientAccessToUser</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientDocuSignEnvelopeRecipientc</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientPriviliegesSelectUserRecords</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InsufficientReadPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InvalidDocuSignEmailPassword</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InvalidDocusignAccountId</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InvalidSalesforceusername</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InvalidSourceId</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__InvalidTemplateIdDash</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Italian</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Japanese</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Korean</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Language</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LastModified</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LastName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Layouts</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LayoutsQuickLinks</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LayoutsTabAllowsAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LayoutsUpdated</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Lead</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Leads</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Libraries</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LikelyFileMissingFileExtension</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Lines</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LinkDSAccount</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LogIn</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__LogInToYourDocuSignAccount</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MailingCity</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MailingStreet</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ManageDocuSignUsersHelp</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ManageEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MaxCharacters</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MemberEmailNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MemberForgottenPassword</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MemberListFromDocuSignNotSameLengthList</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Message</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MessageContent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MessageEquals</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MessageSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MessagetoAllRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingADsdocument</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingADsrecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingADstemplaterole</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingEmailblurb</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingEmailsubject</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingSettingToBePrimaryAccountSFDC</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MissingTemplateid</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Mobile</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ModifyAccountConfig</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MoveDown</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MoveTheSelectedFieldDown</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MoveTheSelectedFieldUp</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MoveTheSelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MoveUp</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MustHaveAdminPermissionsPerformOperation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MustHaveDocuSignAdminPermissionsPerformOperation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MustHavePermissionsToPerformOperations</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MustSpecifyCompanyName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MustSpecifyName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MyPersonalContent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__MyPersonalDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Name</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NavyBlue</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__New</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Next</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__No</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoAccessToPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoDocuments</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoDocumentsDesktop</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoEmailAndorOnce</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoMatchFound</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoPermissionCustomObj</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoRecipientsDesktop</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoResponseWasReturned</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoRowsToDisplay</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoSupportToMetadataAPI</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoValidation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__None</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NotEnvelopeOwner</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NotEqualTo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NotHavePermissionsToUpdateSalesforceUserRecords</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NotHaveSufficientPermissionResend</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NotSupposedToBeShown</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Note</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__NoteForRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Number</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Object</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Of</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__OnlyEnvelopeInSentOrDelivered</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Opportunity</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Options</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Or</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Order</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__OrgDoesNotSupportMetadataAPI</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__OrgidIsNotSet</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Other</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__OtherEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Page</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Password</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PasswordAndPasswordConfirmation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PersonalMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Phone</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PhoneNumber</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PlanEndDate</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PlanID</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PlanName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PlanStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PleaseContactDocuSignSupportTo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PleaseContactDocusignCustomerSupport</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PleaseContactYourSalesforceAdministratorToBeGranted</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PleaseEnterSearchKeyword</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PleaseLimitYourReason</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PleaseProvideAReason</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PortugueseBrazilian</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PossibleErrorConditions</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__PostCode</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Previous</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ProblemWithTransaction</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Production</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Purple</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__QuickAdd</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RadioButton</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RateUs</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ReadOnly</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Recipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientMustHaveEmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientRoleSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientType</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Recipients</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientsHaveNeenNotifiedEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientsWhoHaveNotSigned</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RecipientsWillNoLongerAccess</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RegExPattern</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RelateFieldToSalesforce</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemindSignersviaEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ReminderExpirationsMustBeNumbers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoteSite</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Remove</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoveAndCloseUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoveAndCloseUsersDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoveDocuSignPackageSelectedUsersKeepAccount</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoveDocuSignPackageSelectedUsrsClose</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoveUsers</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RemoveUsersRemoveTheDocuSignPackage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RequiredField</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ResendEmails</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ResendEmailsComplete</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Return</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ReturnTo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ReturnToEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Role</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RoleNames</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RoleOrRecipientNameRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Rolesareusedto</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__RowsDisplayedPerPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Russian</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SSN</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceEnv</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceOrgStorageLimitExceeded</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforcePass</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforcePassword</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceToken</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceUser</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceUserSigningPageErrorWrongIdentity</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceUserSigningPageErrorWrongParameter</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceUserSigningPageException</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SalesforceUsername</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Sandbox</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Save</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SaveTheChangesToTheSelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Search</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectAllUsersOnThisPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectAtLeastOneUserActivatedDSProSFUsername</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectAtLeastOneUserDSProSFUsername</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectColumnHeaderToSort</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectDashed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectFieldsToDisplayInList</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectFilterToApply</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectOneEmailForSFDC</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectOnlyUsersHavePermissionDSProSFUsername</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectUserToBeAdded</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectWhereDocuSignButtonsAdded</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SelectedFields</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Selectthecheckbox</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SendFailed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SendNow</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SendSettings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SendWithDS</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Sendautomaticreminders</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SendingEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Sent</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Settings</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SettingsSavedSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SetupNotComplete</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ShareExperienceWithCommunity</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Shared</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ShowTheFirstPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ShowTheLastPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ShowTheNextPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ShowThePreviousPage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignHere</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignHereOptional</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignInPerson</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignNowProcess</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignUpFreeDSTrial</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Signature</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Signed</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Signer</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignerAttachment</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignerDashSignNow</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignerName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SignerRole</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Spanish</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SpecifiedEnvelopeNoLonerExist</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__SpecifiedUserNotRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StartsWith</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StateOrProvince</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StateProvince</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Status</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StatusCorrectInDocuSignErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StatusVoidEnvelopeError</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StatusVoidEnvelopeErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Step1</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__StreetAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Subject</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TagTitle</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TagType</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TextField</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TheEmailAddressIsInvalid</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TheEnvelopeSpecifiedEither</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ThereWasAnErrorWhenUpdating</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ThisUserIsNotTheSender</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ToLinkTheAccountPleaseSelect</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ToLinkTheAccountPleaseUse</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ToVoidThisEnvelopeProvideReason</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TotalRow</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TransactionProblem</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TransctionInfo</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__TrustedNetwork</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableAddAttachmentInsufficientAccess</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableAddContentInsufficientAccessContentVersion</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableAddUpdateDocument</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableAddUpdateEnvelopes</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableAddUpdateRecipients</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableFindEvenlopeWithIdEquals</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableGetContentInformationInsufficientContentWorkspace</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableGetDocumentInformationInsufficientAccess</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableGetDocumentInformationInsufficientAccessContentVersion</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableInitializeDocuSignAccountConfiguration</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableLoadProvisioningInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnablePopulateFolderList</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableSendEvelopeNotExist</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableToAddDocument</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableToAuthenticateTheUser</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnableToGetCustomObjects</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UndoAndSend</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Unknown</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnknownEnvelopeRecipient</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UnrecognizedLangaugeCode</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UpdateLayouts</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__User</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UserLacksSufficientPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UserMustBeProvided</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UserNameIsRequired</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Users</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__UsersPeriod</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Validation</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ValidationErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__VerifyWithDNB</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__VerifyWithDNBDescription</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ViewColon</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ViewDocuSignStatus</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__VoidEnvelope</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__VoidEnvelopeComplete</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Voided</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__VoidingEnvelopeWillRemoveAccess</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__WarnSigners</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Whatisthis</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__White</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__WidthInPixels</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__WindowBlockedByBrowser</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__WriteAReview</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Yes</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__YouAreAttemptingToAccess</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__YouCannotSelectMoreThan</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__YouMustAgreeToTheDocusignTerms</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__YourDocEmailedInPdf</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__YourDocusignAccountHasNotBeen</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__YourDocusignAccountHasNotBeenActivated</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__Zip</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__ZipPostalCode</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Add_Signer</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_DOCUMENTS</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_DocuSign</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Done</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Download_DocuSign_Android_Url</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Download_DocuSign_Mobile</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Download_DocuSign_iOS_Url</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Download_the_DocuSign_mobile</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_EmailAddress</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Error_InPerson</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_FullName</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Get_DocuSign_Mobile</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_InPerson</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_InvalidEmailError</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_Reorder</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_SIGNERS</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__m_ViaEmail</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__regex</name>
+    </customLabels>
+    <customLabels>
+        <label>
+			
+		</label>
+        <name>dsfs__zip5dash4</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label>
+			
+		</label>
+        <name>Microsoft</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label>
+			
+		</label>
+        <name>BLND_Monarch</name>
+    </customTabs>
+    <customTabs>
+        <label>
+			
+		</label>
+        <name>BLND_Snapshot</name>
+    </customTabs>
+    <customTabs>
+        <label>
+			
+		</label>
+        <name>BLND_TableTop</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- DocuSign Admin --></label>
+        <name>DocuSign_Admin</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- DocuSign Demo --></label>
+        <name>DocuSign_Partner_Demo</name>
+    </customTabs>
+    <customTabs>
+        <label>
+			
+		</label>
+        <name>FormFactory</name>
+    </customTabs>
+    <customTabs>
+        <label>
+			
+		</label>
+        <name>My_Test_Lightning_Page</name>
+    </customTabs>
+    <customTabs>
+        <label>
+			
+		</label>
+        <name>Old_Monarch</name>
+    </customTabs>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>New_Account_From_Chatter</name>
+    </quickActions>
+    <quickActions>
+        <label>
+			
+		</label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description>
+			
+		</description>
+        <label>
+			
+		</label>
+        <name>Accounts_Primary1</name>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Accounts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description>
+			
+		</description>
+        <label>
+			
+		</label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description>
+			
+		</description>
+        <label>
+			
+		</label>
+        <name>Joined_Report</name>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description>
+			
+		</description>
+        <label>
+			
+		</label>
+        <name>OppSecondary</name>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description>
+			
+		</description>
+        <label>
+			
+		</label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description>
+			
+		</description>
+        <label>
+			
+		</label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label>
+				
+			</label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+</Translations>

@@ -1,0 +1,51 @@
+<LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<file>
+		<name>PollQuestion.cmp</name>
+		<xml>
+			<aura:component>
+				<aura:attribute
+					type="sfsiPoll__Poll_Question__c"
+					name="pollQuestion"/>
+				<aura:attribute
+					type="string"
+					name="optionsContainer"/>
+				<li class="media list-group-item">
+					<div
+						class="media-left"
+						onclick="{!c.showOptions}">
+						<a href="#">
+							<img
+								class="media-object"
+								src="{!v.pollQuestion.sfsiPoll__Image__c}"
+								alt="No Image"/>
+						</a>
+					</div>
+					<div
+						class="media-body"
+						onclick="{!c.showOptions}">
+						<h4 class="media-heading">{!v.pollQuestion.Name}</h4>
+					</div>
+					<div style="clear: both;">{!v.optionsContainer}</div>
+				</li>
+			</aura:component>
+		</xml>
+	</file>
+	<file>
+		<name>PollQuestion.cmp-meta.xml</name>
+		<xml>
+			<?xml version="1.0" encoding="UTF-8"?>
+			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+				<apiVersion>36.0</apiVersion>
+				<description>DESCRIPTION</description>
+			</AuraDefinitionBundle>
+		</xml>
+	</file>
+	<file>
+		<name>PollQuestion.css</name>
+		<text>.THIS .media-object {    width: 64px;     height: 64px;}.THIS .media-left {    float: left;    padding-right: 10px;    cursor: pointer;}.THIS .media-body {    cursor: pointer;}.THIS h4.media-heading {    font-weight: bold;}</text>
+	</file>
+	<file>
+		<name>PollQuestionController.js</name>
+		<text>({    showOptions : function(component, event, helper) {                $A.createComponent (            &quot;sfsiPoll:PollOptions&quot;,            {                    &quot;poll&quot;: component.get(&quot;v.pollQuestion&quot;)            },			function(content){                component.set(&quot;v.optionsContainer&quot;, content);            }                    );    }})</text>
+	</file>
+</LightningBundle>
