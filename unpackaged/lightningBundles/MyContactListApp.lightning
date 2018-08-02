@@ -1,20 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-	<file>
-		<name>MyContactListApp.app</name>
-		<xml>
-			<aura:application>
-				<c:MyContactList/>
-			</aura:application>
-		</xml>
-	</file>
-	<file>
-		<name>MyContactListApp.app-meta.xml</name>
-		<xml>
+	<manifest_file>
+		<manifest_name>MyContactListApp.app</manifest_name>
+		<manifest_text>&lt;aura:application &gt;
+	&lt;c:MyContactList /&gt;
+&lt;/aura:application&gt;</manifest_text>
+	</manifest_file>
+	<manifest_file>
+		<manifest_name>MyContactListApp.app-meta.xml</manifest_name>
+		<manifest_xml>
 			<?xml version="1.0" encoding="UTF-8"?>
 			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
 				<apiVersion>40.0</apiVersion>
 				<description>A Lightning Component Bundle</description>
 			</AuraDefinitionBundle>
-		</xml>
-	</file>
+		</manifest_xml>
+	</manifest_file>
 </LightningBundle>

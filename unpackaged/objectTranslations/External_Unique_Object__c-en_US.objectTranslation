@@ -9,6 +9,11 @@
         <value>External Unique Objects</value>
     </caseValues>
     <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- External Unique Objects --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- External Unique Num --></label>
         <name>External_Unique_Num__c</name>
     </fields>

@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Account FieldSets --></label>
+        <name>Account_FieldSets</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Active FieldSet --></label>
+        <name>Active_FieldSet</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Test Field Set --></label>
+        <name>Test_Field_Set</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Unused Account Field Set --></label>
+        <name>Unused_Account_Field_Set</name>
+    </fieldSets>
     <fields>
         <caseValues>
             <plural>false</plural>
@@ -17,6 +33,7 @@
         <name>AA_Field__c</name>
     </fields>
     <fields>
+        <help><!-- No help here. This is a formula field. --></help>
         <label><!-- A Formula Field --></label>
         <name>A_Formula_Field__c</name>
     </fields>
@@ -25,6 +42,7 @@
         <name>A_Long_Number__c</name>
     </fields>
     <fields>
+        <help><!-- Please document how deep we are entrenched in this account. --></help>
         <label><!-- Account Depth --></label>
         <name>Account_Depth__c</name>
         <picklistValues>
@@ -61,6 +79,10 @@
         <label><!-- Active --></label>
         <name>Active__c</name>
         <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>No</masterLabel>
             <translation><!-- No --></translation>
         </picklistValues>
@@ -76,10 +98,6 @@
     <fields>
         <label><!-- Annual IT Budget --></label>
         <name>AnnualITBudget__c</name>
-    </fields>
-    <fields>
-        <label><!-- Carecentrix --></label>
-        <name>Carecentrix__c</name>
     </fields>
     <fields>
         <label><!-- Complete Cost --></label>
@@ -182,6 +200,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Custom Record ID --></label>
+        <name>Custom_Record_ID__c</name>
+    </fields>
+    <fields>
         <label><!-- Customer Priority --></label>
         <name>CustomerPriority__c</name>
         <picklistValues>
@@ -238,6 +260,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- My GeoLocation Field --></label>
+        <name>My_GeoLocation_Field__c</name>
+    </fields>
+    <fields>
         <label><!-- My Picklist field --></label>
         <name>My_Picklist_field__c</name>
         <picklistValues>
@@ -254,18 +280,16 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- My Test Field --></label>
-        <name>My_Test_Field__c</name>
-    </fields>
-    <fields>
-        <label><!-- New Field --></label>
-        <name>New_Field__c</name>
+        <help><!-- Enter the Time data here. --></help>
+        <label><!-- My Time Field --></label>
+        <name>My_Time_Field__c</name>
     </fields>
     <fields>
         <label><!-- Number picklist --></label>
         <name>Number_picklist__c</name>
     </fields>
     <fields>
+        <help><!-- Displays the number of locations --></help>
         <label><!-- Number of Locations --></label>
         <name>NumberofLocations__c</name>
     </fields>
@@ -430,6 +454,11 @@
         <name>TotalPotentialLicenses__c</name>
     </fields>
     <fields>
+        <help><!-- Dont use this field --></help>
+        <label><!-- Unused Account Field --></label>
+        <name>Unused_Account_Field__c</name>
+    </fields>
+    <fields>
         <label><!-- Upsell Opportunity --></label>
         <name>UpsellOpportunity__c</name>
         <picklistValues>
@@ -452,10 +481,6 @@
             <masterLabel>Yes</masterLabel>
             <translation><!-- Yes --></translation>
         </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- # of sales reps --></label>
-        <name>ofsalesreps__c</name>
     </fields>
     <layouts>
         <layout>Account (Marketing) Layout</layout>
@@ -526,6 +551,17 @@
             <section>Fields</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Unused Account layout</layout>
+        <sections>
+            <label><!-- Account Information - Updated --></label>
+            <section>Account Information - Updated</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Quick Account --></label>
         <name>Create_Account</name>
@@ -554,6 +590,15 @@
         <label><!-- MyRecType --></label>
         <name>MyRecType</name>
     </recordTypes>
+    <recordTypes>
+        <description><!-- This is unused --></description>
+        <label><!-- Unused Account Recordtype --></label>
+        <name>Unused_Account_Recordtype</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Account cannot be inactive when you make a change. --></errorMessage>
+        <name>Account_is_Active</name>
+    </validationRules>
     <webLinks>
         <label><!-- BLND_FormFactoryAccountLink --></label>
         <name>BLND_FormFactoryAccountLink</name>
@@ -581,6 +626,10 @@
     <webLinks>
         <label><!-- Sridhar_DeleteMe --></label>
         <name>Sridhar_DeleteMe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unused_Button --></label>
+        <name>Unused_Button</name>
     </webLinks>
     <webLinks>
         <label><!-- contact_hierarchy_trick --></label>

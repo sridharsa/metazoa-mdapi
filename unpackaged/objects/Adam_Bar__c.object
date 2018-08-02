@@ -42,6 +42,13 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>another</fullName>
+        <fields>Name</fields>
+        <fields>Adam_Bar_Picklist__c</fields>
+        <fields>controller__c</fields>
+        <label>another</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -62,6 +69,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Check_Control__c</controllingField>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -71,7 +79,7 @@
                 </value>
                 <value>
                     <fullName>3</fullName>
-                    <default>false</default>
+                    <default>true</default>
                     <label>3</label>
                 </value>
                 <value>
@@ -80,9 +88,9 @@
                     <label>4</label>
                 </value>
                 <value>
-                    <fullName>default</fullName>
-                    <default>true</default>
-                    <label>default</label>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
                 </value>
                 <value>
                     <fullName>6</fullName>
@@ -109,21 +117,62 @@
                     <default>false</default>
                     <label>10</label>
                 </value>
-                <value>
-                    <fullName>A123456</fullName>
-                    <default>false</default>
-                    <label>123</label>
-                </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>5</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>8</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>unchecked</controllingFieldValue>
+                <valueName>9</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>1</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>3</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>4</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>checked</controllingFieldValue>
+                <valueName>10</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
-        <fullName>Build_Date__c</fullName>
+        <fullName>Check_Control__c</fullName>
+        <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>Build Date</label>
+        <label>Check Control</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Empty_field__c</fullName>
+        <externalId>false</externalId>
+        <label>Empty field</label>
+        <length>80</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Date</type>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>My_text_area__c</fullName>
+        <externalId>false</externalId>
+        <label>My text area</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Referral_Source__c</fullName>
@@ -332,18 +381,6 @@
                 <valueName>fifth_989809890</valueName>
             </valueSettings>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>magic_number__c</fullName>
-        <defaultValue>99</defaultValue>
-        <externalId>false</externalId>
-        <label>magic number</label>
-        <precision>16</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>subservient__c</fullName>

@@ -148,6 +148,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel># of Leads Created</metricLabel>
             <report>Sales_Marketing_Dashboard_Reports/Marketing_Exec_of_Leads</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -158,6 +159,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel># of Leads Converted</metricLabel>
             <report>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Leads_Converted</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -168,6 +170,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Opportunity Amount Converted</metricLabel>
             <report>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Converted_Amount</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -178,6 +181,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Opportunity Amount Converted &amp; Closed</metricLabel>
             <report>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Converted_and_Won_Amount</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>

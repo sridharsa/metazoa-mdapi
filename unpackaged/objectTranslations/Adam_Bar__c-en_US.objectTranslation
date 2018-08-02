@@ -20,16 +20,16 @@
             <translation><!-- 10 --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>123</masterLabel>
-            <translation><!-- 123 --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>3</masterLabel>
             <translation><!-- 3 --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>4</masterLabel>
             <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>6</masterLabel>
@@ -47,14 +47,18 @@
             <masterLabel>9</masterLabel>
             <translation><!-- 9 --></translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>default</masterLabel>
-            <translation><!-- default --></translation>
-        </picklistValues>
     </fields>
     <fields>
-        <label><!-- Build Date --></label>
-        <name>Build_Date__c</name>
+        <label><!-- Check Control --></label>
+        <name>Check_Control__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empty field --></label>
+        <name>Empty_field__c</name>
+    </fields>
+    <fields>
+        <label><!-- My text area --></label>
+        <name>My_text_area__c</name>
     </fields>
     <fields>
         <label><!-- Referral Source --></label>
@@ -151,10 +155,6 @@
             <masterLabel>third_0980909890</masterLabel>
             <translation><!-- third_0980909890 --></translation>
         </picklistValues>
-    </fields>
-    <fields>
-        <label><!-- magic number --></label>
-        <name>magic_number__c</name>
     </fields>
     <fields>
         <label><!-- subservient --></label>

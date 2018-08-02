@@ -11,7 +11,6 @@
         <members>BLND_DFAC_Shared_View__c.BLND_Data__c</members>
         <members>BLND_DFAC_Shared_View__c.BLND_Description__c</members>
         <members>BLND_DFAC_Shared_View__c.BLND_Expansion__c</members>
-        <members>BLND_DFAC_Shared_View__c.BLND_Extra_Field__c</members>
         <members>BLND_DFAC_Shared_View__c.BLND_Owner__c</members>
         <members>BLND_DFAC_Shared_View__c.BLND_Private__c</members>
         <members>BLND_DFAC_Shared_View__c.BLND_Version__c</members>
@@ -386,5 +385,5 @@
         <members>Opportunity.BLND_FormFactory_Opportunity_Link</members>
         <name>WebLink</name>
     </types>
-    <version>40.0</version>
+    <version>42.0</version>
 </Package>

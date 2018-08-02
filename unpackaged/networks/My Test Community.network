@@ -2,28 +2,26 @@
 <Network xmlns="http://soap.sforce.com/2006/04/metadata">
     <allowInternalUserLogin>false</allowInternalUserLogin>
     <allowMembersToFlag>false</allowMembersToFlag>
-    <branding>
-        <primaryColor>#1797C0</primaryColor>
-        <primaryComplementColor>#FFFFFF</primaryComplementColor>
-        <quaternaryColor>#B1BAC1</quaternaryColor>
-        <quaternaryComplementColor>#222222</quaternaryComplementColor>
-        <secondaryColor>#51606E</secondaryColor>
-        <tertiaryColor>#DDE4E9</tertiaryColor>
-        <tertiaryComplementColor>#222222</tertiaryComplementColor>
-        <zeronaryColor>#51606E</zeronaryColor>
-        <zeronaryComplementColor>#FFFFFF</zeronaryComplementColor>
-    </branding>
     <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles/>
+    <disableReputationRecordConversations>false</disableReputationRecordConversations>
     <emailSenderAddress>sridhar@dreamfactory.com</emailSenderAddress>
     <emailSenderName>My Test Community</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>false</enableDirectMessages>
     <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>false</enableGuestFileAccess>
     <enableInvitation>false</enableInvitation>
     <enableKnowledgeable>false</enableKnowledgeable>
     <enableNicknameDisplay>false</enableNicknameDisplay>
     <enablePrivateMessages>false</enablePrivateMessages>
     <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
     <enableSiteAsContainer>false</enableSiteAsContainer>
-    <enableTopicAssignmentRules>false</enableTopicAssignmentRules>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>true</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
     <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
     <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
     <navigationLinkSet>
@@ -45,8 +43,26 @@
         <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
         <homePageOverrideSetting>Standard</homePageOverrideSetting>
         <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Standard</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>My_Test_Community1</picassoSite>
+    <recommendationDefinition>
+        <recommendationDefinitionDetails>
+            <actionUrl>https://channel.metazoa.com</actionUrl>
+            <description>This is a desc for test channel title</description>
+            <linkText>Channel Button Text</linkText>
+            <scheduledRecommendations>
+                <scheduledRecommendationDetails>
+                    <channel>CustomChannel1</channel>
+                    <enabled>true</enabled>
+                    <rank>1</rank>
+                    <recommendationAudience>000000000000000</recommendationAudience>
+                </scheduledRecommendationDetails>
+            </scheduledRecommendations>
+            <setupName>Metazoa Channel</setupName>
+            <title>Test Channel Title</title>
+        </recommendationDefinitionDetails>
+    </recommendationDefinition>
     <selfRegistration>false</selfRegistration>
     <sendWelcomeEmail>true</sendWelcomeEmail>
     <site>My_Test_Community</site>

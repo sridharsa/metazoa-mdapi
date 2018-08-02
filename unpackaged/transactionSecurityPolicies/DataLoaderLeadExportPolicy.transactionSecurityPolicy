@@ -18,4 +18,5 @@
     <executionUser>newss@df.com</executionUser>
     <masterLabel>Data Loader Lead Export Policy</masterLabel>
     <resourceName>Lead</resourceName>
+    <type>CustomApexPolicy</type>
 </TransactionSecurityPolicy>

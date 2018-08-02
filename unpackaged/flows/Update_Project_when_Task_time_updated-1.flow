@@ -45,14 +45,14 @@
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
-                <stringValue>ISCHANGED([BLND_DFDT_Task__c].BLND_Work_In_Actual_Hours__c)</stringValue>
+                <stringValue>ISCHANGED([BLND_DFDT_Task__c].BLND_Work_In_Actual_Hours__c) &amp;&amp; true</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_1</name>
         <dataType>Boolean</dataType>
-        <expression>ISCHANGED({!myVariable_current.BLND_Work_In_Actual_Hours__c})</expression>
+        <expression>ISCHANGED({!myVariable_current.BLND_Work_In_Actual_Hours__c}) &amp;&amp; true</expression>
     </formulas>
-    <interviewLabel>Update_Project_when_Task_time_updated-1_BLND_DFDT_Task__c</interviewLabel>
+    <interviewLabel>Update_Project_when_Task_time_updated-1_InterviewLabel</interviewLabel>
     <label>Update Project when Task time updated</label>
     <processMetadataValues>
         <name>ObjectType</name>

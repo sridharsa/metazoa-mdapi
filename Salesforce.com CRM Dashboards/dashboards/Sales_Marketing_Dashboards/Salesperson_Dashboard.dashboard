@@ -123,6 +123,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>Sales_Marketing_Dashboard_Reports/Sales_Person_MTD_Sales</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
             <title>Current Month Actuals vs Quota</title>

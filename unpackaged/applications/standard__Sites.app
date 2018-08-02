@@ -2,7 +2,8 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-Chatter</tab>
-    <tab>standard-Sites</tab>
-    <tab>FormFactory</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Sites</tabs>
+    <tabs>FormFactory</tabs>
+    <tabs>BLND_DFTE_Expense__c</tabs>
 </CustomApplication>

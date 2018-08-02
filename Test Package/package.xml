@@ -2,28 +2,21 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Test Package</fullName>
     <types>
-        <members>Adam_Bar__c.Adam_Bar_Picklist__c</members>
-        <members>Adam_Bar__c.Build_Date__c</members>
-        <members>Adam_Bar__c.Referral_Source__c</members>
-        <members>Adam_Bar__c.controller__c</members>
-        <members>Adam_Bar__c.dependent__c</members>
-        <members>Adam_Bar__c.dominant__c</members>
-        <members>Adam_Bar__c.iscontrolled__c</members>
-        <members>Adam_Bar__c.magic_number__c</members>
-        <members>Adam_Bar__c.subservient__c</members>
+        <members>My_Test_Article_Type__kav.My_Test_Field__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Adam_Bar__c</members>
+        <members>My_Test_Article_Type__kav</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Adam_Bar__c-Adam Bar Layout</members>
-        <name>Layout</name>
+        <members>My_Test_Article_Type__kav.My_Test_Field_Label</members>
+        <name>FieldSet</name>
     </types>
     <types>
-        <members>Adam_Bar__c.All</members>
-        <name>ListView</name>
+        <members>My_Test_Article_Type__kav-My Test Article Type Layout</members>
+        <members>My_Test_Article_Type__kav-My Test channel layout</members>
+        <name>Layout</name>
     </types>
-    <version>40.0</version>
+    <version>42.0</version>
 </Package>

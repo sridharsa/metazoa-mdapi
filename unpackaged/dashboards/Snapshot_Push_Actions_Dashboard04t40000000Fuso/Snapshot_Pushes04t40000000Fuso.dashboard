@@ -16,6 +16,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Pushes This Month</metricLabel>
             <report>Snapshot_Push_Actions/Num_pushes_this_mnth_by_wk_by_usr</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>

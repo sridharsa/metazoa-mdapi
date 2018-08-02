@@ -18,6 +18,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Open Cases</metricLabel>
             <report>Best_Practice_Service_Reports/Cases_Currently_Open</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -65,6 +66,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Cases Closed MTD</metricLabel>
             <report>Best_Practice_Service_Reports/Cases_Closed_MTD</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -114,6 +116,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Average Age of Open Cases (Days)</metricLabel>
             <report>Best_Practice_Service_Reports/Age_of_Cases_Currently_Open_by_Type</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -162,6 +165,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Case Resolution Time MTD (Days)</metricLabel>
             <report>Best_Practice_Service_Reports/Average_Case_Resolution_Time_MTD</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -211,6 +215,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Cases Created MTD</metricLabel>
             <report>Best_Practice_Service_Reports/Cases_Created_MTD</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
@@ -258,6 +263,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <metricLabel>Historical Case Resolution Time (Days)</metricLabel>
             <report>Best_Practice_Service_Reports/Average_Case_Resolution_Time_1</report>
+            <showRange>false</showRange>
         </components>
         <components>
             <autoselectColumnsFromReport>true</autoselectColumnsFromReport>

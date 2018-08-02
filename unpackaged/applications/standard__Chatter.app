@@ -2,11 +2,12 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-Chatter</tab>
-    <tab>standard-UserProfile</tab>
-    <tab>standard-OtherUserProfile</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-File</tab>
-    <tab>BLND_Snapshot</tab>
-    <tab>FormFactory</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>BLND_Snapshot</tabs>
+    <tabs>FormFactory</tabs>
+    <tabs>BLND_DFTE_Expense__c</tabs>
 </CustomApplication>

@@ -1,0 +1,6 @@
+<apex:page standardController="Account">
+    This lists all the field associated with the field set. <br/>
+    <apex:repeat value="{!$ObjectType.Account.FieldSets.Account_FieldSets}" var="f">
+        <apex:outputText value="{!Account[f]}" /><br/>
+    </apex:repeat>
+</apex:page>

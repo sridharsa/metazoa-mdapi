@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
+        <fullName>My_Custom_Labels</fullName>
+        <categories>Test Data Categories</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>My Custom Labels</shortDescription>
+        <value>Val1
+Val2
+Val3</value>
+    </labels>
+    <labels>
         <fullName>My_Custom_Labels_2</fullName>
         <categories>Test Data Categories</categories>
         <language>en_US</language>
@@ -9,5 +19,31 @@
         <value>Val3
 Val4
 Val5</value>
+    </labels>
+    <labels>
+        <fullName>Test2</fullName>
+        <categories>Testing</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test2</shortDescription>
+        <value>1
+2
+3
+4
+5</value>
+    </labels>
+    <labels>
+        <fullName>Testing_4</fullName>
+        <categories>Testing 4</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Testing 4</shortDescription>
+        <value>a
+b
+c
+d
+e
+f
+g</value>
     </labels>
 </CustomLabels>

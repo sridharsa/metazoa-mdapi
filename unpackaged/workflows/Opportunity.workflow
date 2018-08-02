@@ -156,10 +156,6 @@
         </criteriaItems>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
-            <actions>
-                <name>Pending_Close</name>
-                <type>Task</type>
-            </actions>
             <offsetFromField>Opportunity.CloseDate</offsetFromField>
             <timeLength>-30</timeLength>
             <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>

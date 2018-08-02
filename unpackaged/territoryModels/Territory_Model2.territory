@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TerritoryModel xmlns="http://soap.sforce.com/2006/04/metadata">
-	<file>
-		<name>Territory_Model2.territory2Model</name>
-		<xml>
+	<manifest_file>
+		<manifest_name>Territory_Model2.territory2Model</manifest_name>
+		<manifest_xml>
 			<?xml version="1.0" encoding="UTF-8"?>
 			<Territory2Model
 				xmlns="http://soap.sforce.com/2006/04/metadata"
@@ -12,13 +13,32 @@
 				</customFields>
 				<name>Territory Model2</name>
 			</Territory2Model>
-		</xml>
-	</file>
-	<folder>
-		<name>territories</name>
-		<file>
-			<name>TerrModel2_NewTerr_WestType.territory2</name>
-			<xml>
+		</manifest_xml>
+	</manifest_file>
+	<manifest_folder>
+		<manifest_name>rules</manifest_name>
+		<manifest_file>
+			<manifest_name>Terr_Mode2_TerrRule2.territory2Rule</manifest_name>
+			<manifest_xml>
+				<?xml version="1.0" encoding="UTF-8"?>
+				<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+					<active>true</active>
+					<name>Terr_Mode2_TerrRule2</name>
+					<objectType>Account</objectType>
+					<ruleItems>
+						<field>Account.BillingStateCode</field>
+						<operation>equals</operation>
+						<value>NY</value>
+					</ruleItems>
+				</Territory2Rule>
+			</manifest_xml>
+		</manifest_file>
+	</manifest_folder>
+	<manifest_folder>
+		<manifest_name>territories</manifest_name>
+		<manifest_file>
+			<manifest_name>TerrModel2_NewTerr_WestType.territory2</manifest_name>
+			<manifest_xml>
 				<?xml version="1.0" encoding="UTF-8"?>
 				<Territory2
 					xmlns="http://soap.sforce.com/2006/04/metadata"
@@ -35,7 +55,7 @@
 					<opportunityAccessLevel>Edit</opportunityAccessLevel>
 					<territory2Type>West</territory2Type>
 				</Territory2>
-			</xml>
-		</file>
-	</folder>
+			</manifest_xml>
+		</manifest_file>
+	</manifest_folder>
 </TerritoryModel>

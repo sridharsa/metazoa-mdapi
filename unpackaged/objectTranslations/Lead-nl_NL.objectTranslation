@@ -35,11 +35,23 @@
             <masterLabel>GC5000 series</masterLabel>
             <translation><!-- GC5000 series --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Monarch</masterLabel>
+            <translation><!-- Monarch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Snapshot</masterLabel>
+            <translation><!-- Snapshot --></translation>
+        </picklistValues>
     </fields>
     <fields>
         <label><!-- SIC Code --></label>
         <name>SICCode__c</name>
     </fields>
+    <validationRules>
+        <errorMessage><!-- Please provide a valid value for Country --></errorMessage>
+        <name>Country_is_needed</name>
+    </validationRules>
     <webLinks>
         <label><!-- BLND_FormFactoryLeadLink --></label>
         <name>BLND_FormFactoryLeadLink</name>

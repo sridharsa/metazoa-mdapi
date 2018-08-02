@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Snapshot Deployment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Snapshot Deployments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Apex Tests --></label>
+        <name>apex_tests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apply Transforms --></label>
+        <name>apply_transforms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Arrow --></label>
+        <name>created_arrow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Company --></label>
+        <name>created_company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>created_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Fullname --></label>
+        <name>created_fullname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created GMT --></label>
+        <name>created_gmt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created GUID --></label>
+        <name>created_guid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Orgid --></label>
+        <name>created_orgid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Userid --></label>
+        <name>created_userid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Username --></label>
+        <name>created_username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deploy Managed --></label>
+        <name>deploy_managed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Company --></label>
+        <name>destination_company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Date --></label>
+        <name>destination_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Folder --></label>
+        <name>destination_folder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Fullname --></label>
+        <name>destination_fullname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination GUID --></label>
+        <name>destination_guid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Item --></label>
+        <name>destination_item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Orgid --></label>
+        <name>destination_orgid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Userid --></label>
+        <name>destination_userid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Destination Username --></label>
+        <name>destination_username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed Comments --></label>
+        <name>detailed_comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empty Recycle --></label>
+        <name>empty_recycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Field One --></label>
+        <name>extra_field_one__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Field Two --></label>
+        <name>extra_field_two__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Flag One --></label>
+        <name>extra_flag_one__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extra Flag Two --></label>
+        <name>extra_flag_two__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ignore Warnings --></label>
+        <name>ignore_warnings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Create --></label>
+        <name>job_create__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Delete --></label>
+        <name>job_delete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job GUID --></label>
+        <name>job_guid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job History --></label>
+        <name>job_history__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Limits --></label>
+        <name>job_limits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Name --></label>
+        <name>job_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>job_status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Tests --></label>
+        <name>job_tests__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job Transforms --></label>
+        <name>job_transforms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Made Changes --></label>
+        <name>made_changes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Push Action --></label>
+        <name>push_action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Push Results --></label>
+        <name>push_results__c</name>
+    </fields>
+    <fields>
+        <label><!-- Push Type --></label>
+        <name>push_type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quick Deploy --></label>
+        <name>quick_deploy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remove References --></label>
+        <name>remove_references__c</name>
+    </fields>
+    <fields>
+        <label><!-- Searchable Tags --></label>
+        <name>searchable_tags__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Company --></label>
+        <name>source_company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Date --></label>
+        <name>source_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Folder --></label>
+        <name>source_folder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Fullname --></label>
+        <name>source_fullname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source GUID --></label>
+        <name>source_guid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Item --></label>
+        <name>source_item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Orgid --></label>
+        <name>source_orgid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Userid --></label>
+        <name>source_userid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Username --></label>
+        <name>source_username__c</name>
+    </fields>
+    <fields>
+        <label><!-- Successful Push --></label>
+        <name>successful_push__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

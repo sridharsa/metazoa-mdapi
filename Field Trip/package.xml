@@ -88,5 +88,5 @@
         <members>Object_Analysis__c.Processing Complete</members>
         <name>WorkflowRule</name>
     </types>
-    <version>40.0</version>
+    <version>42.0</version>
 </Package>

@@ -4,12 +4,13 @@
     <formFactors>Large</formFactors>
     <label>DocuSign For Salesforce</label>
     <logo>dsfs__DocuSign_Images/dsfs__docusign_for_salesforce_logo.png</logo>
-    <tab>dsfs__DocuSign_Status__c</tab>
-    <tab>dsfs__DocuSign_Admin</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Contract</tab>
-    <tab>FormFactory</tab>
+    <tabs>dsfs__DocuSign_Status__c</tabs>
+    <tabs>dsfs__DocuSign_Admin</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Contract</tabs>
+    <tabs>FormFactory</tabs>
+    <tabs>BLND_DFTE_Expense__c</tabs>
 </CustomApplication>

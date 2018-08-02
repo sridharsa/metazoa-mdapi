@@ -207,5 +207,15 @@
             </escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
         </ruleEntry>
+        <ruleEntry>
+            <businessHoursSource>Case</businessHoursSource>
+            <escalationAction>
+                <assignedTo>My_New_Queue</assignedTo>
+                <assignedToType>Queue</assignedToType>
+                <minutesToEscalation>6000</minutesToEscalation>
+                <notifyCaseOwner>false</notifyCaseOwner>
+            </escalationAction>
+            <escalationStartTime>CaseCreation</escalationStartTime>
+        </ruleEntry>
     </escalationRule>
 </EscalationRules>

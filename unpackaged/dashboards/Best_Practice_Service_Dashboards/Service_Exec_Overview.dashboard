@@ -37,6 +37,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>Best_Practice_Service_Reports/Cases_Currently_Open</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
             <title>Open Cases</title>
@@ -72,6 +73,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>Best_Practice_Service_Reports/Cases_Closed_MTD</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
             <title>Cases Closed MTD</title>
@@ -162,6 +164,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>Best_Practice_Service_Reports/Average_Case_Resolution_Time_MTD</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
             <title>Case Resolution Time MTD (Days)</title>

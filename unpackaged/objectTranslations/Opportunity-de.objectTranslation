@@ -75,12 +75,8 @@
         <name>dsfs__Verify_with_DNB</name>
     </webLinks>
     <workflowTasks>
-        <description>
-			
-		</description>
+        <description><!-- Pending close for this Opp --></description>
         <name>Pending_Close</name>
-        <subject>
-			
-		</subject>
+        <subject><!-- Pending Close --></subject>
     </workflowTasks>
 </CustomObjectTranslation>

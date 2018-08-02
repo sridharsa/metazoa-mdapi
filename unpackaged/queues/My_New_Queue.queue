@@ -2,10 +2,21 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>My New Queue</name>
+    <queueMembers>
+        <users>
+            <user>newss@df.com</user>
+        </users>
+    </queueMembers>
     <queueSobject>
         <sobjectType>Adam_Bar__c</sobjectType>
     </queueSobject>
     <queueSobject>
         <sobjectType>BLND_DFDT_Project__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
     </queueSobject>
 </Queue>

@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This is an administrative object for Snapshot Change and Release Automation.  This object records the details of any Metadata push into the current org.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>apex_tests__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is the Run Apex Tests flag from the push settings.</description>
+        <externalId>false</externalId>
+        <label>Apex Tests</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>apply_transforms__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is the Apply Transforms flag from the push settings.</description>
+        <externalId>false</externalId>
+        <label>Apply Transforms</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>created_arrow__c</fullName>
+        <description>This text field shows the arrow item name.</description>
+        <externalId>false</externalId>
+        <label>Created Arrow</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_company__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Company</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>created_fullname__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Fullname</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_gmt__c</fullName>
+        <description>This is the GMT date that the push was executed. Snapshot uses this string to be sure that snapshots are up to date before a push.</description>
+        <externalId>false</externalId>
+        <label>Created GMT</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_guid__c</fullName>
+        <description>This is the GUID from the arrow folder.</description>
+        <externalId>false</externalId>
+        <label>Created GUID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_orgid__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Orgid</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_userid__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Userid</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>created_username__c</fullName>
+        <externalId>false</externalId>
+        <label>Created Username</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>deploy_managed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Deploy Managed</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>destination_company__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Company</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>destination_folder__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Folder</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_fullname__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Fullname</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_guid__c</fullName>
+        <description>This is the GUID of the destination folder.</description>
+        <externalId>false</externalId>
+        <label>Destination GUID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_item__c</fullName>
+        <description>This is the name of the destination snapshot folder.</description>
+        <externalId>false</externalId>
+        <label>Destination Item</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_orgid__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Orgid</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_userid__c</fullName>
+        <externalId>false</externalId>
+        <label>Destination Userid</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>destination_username__c</fullName>
+        <description>This is the destination username for the pushed data.</description>
+        <externalId>false</externalId>
+        <label>Destination Username</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>detailed_comments__c</fullName>
+        <description>These are the user definable detailed comments from the push interface.</description>
+        <externalId>false</externalId>
+        <label>Detailed Comments</label>
+        <length>30000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>empty_recycle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Empty Recycle</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>extra_field_one__c</fullName>
+        <externalId>false</externalId>
+        <label>Extra Field One</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>extra_field_two__c</fullName>
+        <externalId>false</externalId>
+        <label>Extra Field Two</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>extra_flag_one__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Extra Flag One</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>extra_flag_two__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Extra Flag Two</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ignore_warnings__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is the Ignore Warnings flag from the push settings.</description>
+        <externalId>false</externalId>
+        <label>Ignore Warnings</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>job_create__c</fullName>
+        <description>This field is used by the continuous integration system.</description>
+        <externalId>false</externalId>
+        <label>Job Create</label>
+        <length>130000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>job_delete__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Delete</label>
+        <length>130000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>job_guid__c</fullName>
+        <description>This field is used by the continuous integration system.</description>
+        <externalId>false</externalId>
+        <label>Job GUID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>job_history__c</fullName>
+        <externalId>false</externalId>
+        <label>Job History</label>
+        <length>30000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>job_limits__c</fullName>
+        <description>This field is used by the continuous integration system.</description>
+        <externalId>false</externalId>
+        <label>Job Limits</label>
+        <length>130000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>job_name__c</fullName>
+        <description>This field is used by the continuous integration system.</description>
+        <externalId>false</externalId>
+        <label>Job Name</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>job_status__c</fullName>
+        <description>This field is used by the continuous integration system.</description>
+        <externalId>false</externalId>
+        <label>Job Status</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>job_tests__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Tests</label>
+        <length>30000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>job_transforms__c</fullName>
+        <externalId>false</externalId>
+        <label>Job Transforms</label>
+        <length>30000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>made_changes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag is set when a successful push also made some actual changes to the destination org.</description>
+        <externalId>false</externalId>
+        <label>Made Changes</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>push_action__c</fullName>
+        <externalId>false</externalId>
+        <label>Push Action</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>push_results__c</fullName>
+        <description>This is the detailed information about the push results.</description>
+        <externalId>false</externalId>
+        <label>Push Results</label>
+        <length>130000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>push_type__c</fullName>
+        <description>This is the type of push that was conducted. For example: Check For Errors Without Making Changes</description>
+        <externalId>false</externalId>
+        <label>Push Type</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>quick_deploy__c</fullName>
+        <description>This field store a Quick Deploy job id for later use in a push.</description>
+        <externalId>false</externalId>
+        <label>Quick Deploy</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>remove_references__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This is the Remove Bad References flag from the push settings.</description>
+        <externalId>false</externalId>
+        <label>Remove References</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>searchable_tags__c</fullName>
+        <description>These are the user definable Searchable Tags from the push interface.</description>
+        <externalId>false</externalId>
+        <label>Searchable Tags</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_company__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Company</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>source_folder__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Folder</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_fullname__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Fullname</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_guid__c</fullName>
+        <description>This is the GUID of the source folder.</description>
+        <externalId>false</externalId>
+        <label>Source GUID</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_item__c</fullName>
+        <description>This is the item name of the source snapshot.</description>
+        <externalId>false</externalId>
+        <label>Source Item</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_orgid__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Orgid</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_userid__c</fullName>
+        <externalId>false</externalId>
+        <label>Source Userid</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>source_username__c</fullName>
+        <description>This is the source username that pushed the metadata.</description>
+        <externalId>false</externalId>
+        <label>Source Username</label>
+        <length>200</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>successful_push__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This flag is true if the push was successful.</description>
+        <externalId>false</externalId>
+        <label>Successful Push</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Snapshot Deployment</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>created_date__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Failed_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>successful_push__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Failed Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Successful_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>successful_push__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>All Successful Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Failed_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>successful_push__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>My Failed Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Successful_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>successful_push__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Successful Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_Failed_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>successful_push__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Failed Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Pushes</label>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_Successful_Pushes</fullName>
+        <columns>NAME</columns>
+        <columns>push_type__c</columns>
+        <columns>source_username__c</columns>
+        <columns>successful_push__c</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>successful_push__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Successful Pushes</label>
+    </listViews>
+    <nameField>
+        <label>Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Snapshot Deployments</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

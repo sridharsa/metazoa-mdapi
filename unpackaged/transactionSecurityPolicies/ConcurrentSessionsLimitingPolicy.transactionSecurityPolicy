@@ -18,4 +18,5 @@
     <executionUser>newss@df.com</executionUser>
     <masterLabel>Concurrent User Session Limit Policy</masterLabel>
     <resourceName>LoginHistory</resourceName>
+    <type>CustomApexPolicy</type>
 </TransactionSecurityPolicy>

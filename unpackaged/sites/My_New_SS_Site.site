@@ -9,6 +9,7 @@
     <allowStandardSearch>false</allowStandardSearch>
     <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+    <browserXssProtection>false</browserXssProtection>
     <changePasswordPage>ChangePassword</changePasswordPage>
     <chatterAnswersForgotPasswordConfirmPage>ChatterAnswersForgotPasswordConfirm</chatterAnswersForgotPasswordConfirmPage>
     <chatterAnswersForgotPasswordPage>ChatterAnswersForgotPassword</chatterAnswersForgotPasswordPage>
@@ -16,6 +17,8 @@
     <chatterAnswersLoginPage>ChatterAnswersLogin</chatterAnswersLoginPage>
     <chatterAnswersRegistrationPage>ChatterAnswersRegistration</chatterAnswersRegistrationPage>
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
+    <contentSniffingProtection>false</contentSniffingProtection>
+    <cspUpgradeInsecureRequests>false</cspUpgradeInsecureRequests>
     <description>This is a test site</description>
     <fileNotFoundPage>FileNotFound</fileNotFoundPage>
     <genericErrorPage>Exception</genericErrorPage>
@@ -24,6 +27,7 @@
     <indexPage>IdeasHome</indexPage>
     <masterLabel>My New SS Site</masterLabel>
     <portal>Partner Portal</portal>
+    <referrerPolicyOriginWhenCrossOrigin>false</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
     <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <siteAdmin>newss@df.com</siteAdmin>

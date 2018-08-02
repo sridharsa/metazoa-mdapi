@@ -61,5 +61,5 @@
         <members>Poll_Question__c.Max_5_Options_Allowed</members>
         <name>ValidationRule</name>
     </types>
-    <version>40.0</version>
+    <version>42.0</version>
 </Package>

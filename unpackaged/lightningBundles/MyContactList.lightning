@@ -1,43 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <LightningBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-	<file>
-		<name>MyContactList.cmp</name>
-		<xml>
-			<aura:component controller="MyContactListController">
-				<aura:handler
-					name="init"
-					action="{!c.myAction}"
-					value="{!this}"/>
-				<aura:attribute
-					name="contacts"
-					type="Contact[]"/>
-				<ul>
-					<aura:iteration
-						items="{!v.contacts}"
-						var="contact">
-						<li class="minli">
-							<h3>{!contact.Name}</h3>
-						</li>
-					</aura:iteration>
-				</ul>
-			</aura:component>
-		</xml>
-	</file>
-	<file>
-		<name>MyContactList.cmp-meta.xml</name>
-		<xml>
+	<manifest_file>
+		<manifest_name>MyContactList.cmp</manifest_name>
+		<manifest_text>&lt;aura:component controller=&quot;MyContactListController&quot;&gt;
+	&lt;aura:handler name=&quot;init&quot;
+		action=&quot;{!c.myAction}&quot;
+		value=&quot;{!this}&quot;/&gt;
+	&lt;aura:attribute name=&quot;contacts&quot;
+		type=&quot;Contact[]&quot;/&gt;
+	&lt;ul&gt;
+		&lt;aura:iteration items=&quot;{!v.contacts}&quot;
+			var=&quot;contact&quot;&gt;
+			&lt;li class=&quot;minli&quot;&gt;
+				&lt;h3&gt;{!contact.Name}&lt;/h3&gt;
+			&lt;/li&gt;
+		&lt;/aura:iteration&gt;
+	&lt;/ul&gt;
+&lt;/aura:component&gt;</manifest_text>
+	</manifest_file>
+	<manifest_file>
+		<manifest_name>MyContactList.cmp-meta.xml</manifest_name>
+		<manifest_xml>
 			<?xml version="1.0" encoding="UTF-8"?>
 			<AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
 				<apiVersion>40.0</apiVersion>
 				<description>A Lightning Component Bundle</description>
 			</AuraDefinitionBundle>
-		</xml>
-	</file>
-	<file>
-		<name>MyContactList.css</name>
-		<text>.THIS {background:url(&quot;https://bit.ly/1Dy6Eji&quot;) no-repeat center center;min-height:100%;background-size:cover;color: darkblue;font: Arial;margin: 0;padding-top:10px;padding-bottom:10px;}.THIS ul {list-style-type: none;width: 90%;padding: 5px;position: relative;margin: 0 auto;}.THIS h3 {font: bold 20px/1.5 Arial;}.THIS .minli {padding: 10px;margin-bottom: 10px;overflow: auto;background: rgba(255,255,255,.4);border-radius: 3px;-webkit-border-radius: 3px;width:95%;}.THIS li:hover {cursor: pointer;}</text>
-	</file>
-	<file>
-		<name>MyContactListController.js</name>
-		<text>({	myAction : function(component, event, helper) {        var action = component.get(&quot;c.getContacts&quot;);        action.setCallback(this, function(data) {        component.set(&quot;v.contacts&quot;, data.getReturnValue());        });        $A.enqueueAction(action);			}})</text>
-	</file>
+		</manifest_xml>
+	</manifest_file>
+	<manifest_file>
+		<manifest_name>MyContactList.css</manifest_name>
+		<manifest_text>.THIS {background:url(&quot;https://bit.ly/1Dy6Eji&quot;) no-repeat center center;min-height:100%;background-size:cover;color: darkblue;font: Arial;margin: 0;padding-top:10px;padding-bottom:10px;}.THIS ul {list-style-type: none;width: 90%;padding: 5px;position: relative;margin: 0 auto;}.THIS h3 {font: bold 20px/1.5 Arial;}.THIS .minli {padding: 10px;margin-bottom: 10px;overflow: auto;background: rgba(255,255,255,.4);border-radius: 3px;-webkit-border-radius: 3px;width:95%;}.THIS li:hover {cursor: pointer;}</manifest_text>
+	</manifest_file>
+	<manifest_file>
+		<manifest_name>MyContactListController.js</manifest_name>
+		<manifest_text>({	myAction : function(component, event, helper) {        var action = component.get(&quot;c.getContacts&quot;);        action.setCallback(this, function(data) {        component.set(&quot;v.contacts&quot;, data.getReturnValue());        });        $A.enqueueAction(action);			}})</manifest_text>
+	</manifest_file>
 </LightningBundle>

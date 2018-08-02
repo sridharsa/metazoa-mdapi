@@ -52,7 +52,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>BLND_Account_Link__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
@@ -418,6 +418,6 @@
         <searchResultsAdditionalFields>BLND_Cost__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>BLND_Work_In_Planned_Hours__c</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

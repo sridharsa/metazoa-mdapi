@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TerritoryModel xmlns="http://soap.sforce.com/2006/04/metadata">
-	<file>
-		<name>Terr_Model1.territory2Model</name>
-		<xml>
+	<manifest_file>
+		<manifest_name>Terr_Model1.territory2Model</manifest_name>
+		<manifest_xml>
 			<?xml version="1.0" encoding="UTF-8"?>
 			<Territory2Model
 				xmlns="http://soap.sforce.com/2006/04/metadata"
@@ -12,13 +13,32 @@
 				</customFields>
 				<name>Terr_Model1</name>
 			</Territory2Model>
-		</xml>
-	</file>
-	<folder>
-		<name>territories</name>
-		<file>
-			<name>Terr_Model1_Central.territory2</name>
-			<xml>
+		</manifest_xml>
+	</manifest_file>
+	<manifest_folder>
+		<manifest_name>rules</manifest_name>
+		<manifest_file>
+			<manifest_name>Test_Territory_Assignment_Rule1.territory2Rule</manifest_name>
+			<manifest_xml>
+				<?xml version="1.0" encoding="UTF-8"?>
+				<Territory2Rule xmlns="http://soap.sforce.com/2006/04/metadata">
+					<active>true</active>
+					<name>Test Territory Assignment Rule1</name>
+					<objectType>Account</objectType>
+					<ruleItems>
+						<field>Account.BillingState</field>
+						<operation>equals</operation>
+						<value>CA,OR,WA,NV,NM</value>
+					</ruleItems>
+				</Territory2Rule>
+			</manifest_xml>
+		</manifest_file>
+	</manifest_folder>
+	<manifest_folder>
+		<manifest_name>territories</manifest_name>
+		<manifest_file>
+			<manifest_name>Terr_Model1_Central.territory2</manifest_name>
+			<manifest_xml>
 				<?xml version="1.0" encoding="UTF-8"?>
 				<Territory2
 					xmlns="http://soap.sforce.com/2006/04/metadata"
@@ -34,11 +54,11 @@
 					<opportunityAccessLevel>Edit</opportunityAccessLevel>
 					<territory2Type>Central</territory2Type>
 				</Territory2>
-			</xml>
-		</file>
-		<file>
-			<name>Terr_Model1_East.territory2</name>
-			<xml>
+			</manifest_xml>
+		</manifest_file>
+		<manifest_file>
+			<manifest_name>Terr_Model1_East.territory2</manifest_name>
+			<manifest_xml>
 				<?xml version="1.0" encoding="UTF-8"?>
 				<Territory2
 					xmlns="http://soap.sforce.com/2006/04/metadata"
@@ -54,11 +74,11 @@
 					<opportunityAccessLevel>Edit</opportunityAccessLevel>
 					<territory2Type>East</territory2Type>
 				</Territory2>
-			</xml>
-		</file>
-		<file>
-			<name>Terr_Model1_West.territory2</name>
-			<xml>
+			</manifest_xml>
+		</manifest_file>
+		<manifest_file>
+			<manifest_name>Terr_Model1_West.territory2</manifest_name>
+			<manifest_xml>
 				<?xml version="1.0" encoding="UTF-8"?>
 				<Territory2
 					xmlns="http://soap.sforce.com/2006/04/metadata"
@@ -74,7 +94,7 @@
 					<opportunityAccessLevel>Edit</opportunityAccessLevel>
 					<territory2Type>West</territory2Type>
 				</Territory2>
-			</xml>
-		</file>
-	</folder>
+			</manifest_xml>
+		</manifest_file>
+	</manifest_folder>
 </TerritoryModel>

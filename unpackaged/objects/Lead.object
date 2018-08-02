@@ -226,6 +226,16 @@
                     <default>false</default>
                     <label>GC3000 series</label>
                 </value>
+                <value>
+                    <fullName>Snapshot</fullName>
+                    <default>false</default>
+                    <label>Snapshot</label>
+                </value>
+                <value>
+                    <fullName>Monarch</fullName>
+                    <default>false</default>
+                    <label>Monarch</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -276,6 +286,15 @@
             <value>1</value>
         </filters>
         <label>My Unread Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>My_New_Queue_Lead</fullName>
+        <filterScope>Queue</filterScope>
+        <label>My New Queue</label>
+        <queue>My_New_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <listViews>
         <fullName>TodaysLeads</fullName>
@@ -334,6 +353,13 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
+    <validationRules>
+        <fullName>Country_is_needed</fullName>
+        <active>true</active>
+        <description>Lead Country is required</description>
+        <errorConditionFormula>ISBLANK( Country )</errorConditionFormula>
+        <errorMessage>Please provide a valid value for Country</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>BLND_FormFactoryLeadLink</fullName>
         <availability>online</availability>

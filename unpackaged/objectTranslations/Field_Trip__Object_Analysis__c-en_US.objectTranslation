@@ -59,6 +59,63 @@
             <section>Scope of Analysis</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Sridhar Object Analysis Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Field Trip Information --></label>
+            <section>Field Trip Information</section>
+        </sections>
+        <sections>
+            <label><!-- Object Information --></label>
+            <section>Object Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scope of Analysis --></label>
+            <section>Scope of Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sridhar2 (test) object analysis layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Field Trip Information --></label>
+            <section>Field Trip Information</section>
+        </sections>
+        <sections>
+            <label><!-- Object Information --></label>
+            <section>Object Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scope of Analysis --></label>
+            <section>Scope of Analysis</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sridhar3 And/Or layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Field Trip Information --></label>
+            <section>Field Trip Information</section>
+        </sections>
+        <sections>
+            <label><!-- Object Information --></label>
+            <section>Object Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scope of Analysis --></label>
+            <section>Scope of Analysis</section>
+        </sections>
+    </layouts>
     <webLinks>
         <label><!-- Analyze --></label>
         <name>Field_Trip__Analyze</name>

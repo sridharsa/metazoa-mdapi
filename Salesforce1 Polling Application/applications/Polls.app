@@ -3,6 +3,7 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <label>Polls</label>
-    <tab>Poll_Question__c</tab>
-    <tab>FormFactory</tab>
+    <tabs>Poll_Question__c</tabs>
+    <tabs>FormFactory</tabs>
+    <tabs>BLND_DFTE_Expense__c</tabs>
 </CustomApplication>

@@ -20,6 +20,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>DocuSign_Reports/Envelope_Events_This_Month</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
         </components>
@@ -36,6 +37,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>DocuSign_Reports/Envelope_Events_This_Quarter</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
         </components>
@@ -52,6 +54,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>DocuSign_Reports/Envelope_Events_YTD</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
         </components>
@@ -213,6 +216,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>DocuSign_Reports/Average_Minutes_to_Complete</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
         </components>
@@ -229,6 +233,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>DocuSign_Reports/Average_Hours_to_Complete</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
         </components>
@@ -245,6 +250,7 @@
             <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
             <report>DocuSign_Reports/Average_Days_to_Complete</report>
             <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
             <showTotal>true</showTotal>
             <showValues>false</showValues>
         </components>

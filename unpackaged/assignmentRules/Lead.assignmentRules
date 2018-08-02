@@ -21,5 +21,9 @@
                 <value>US,USA,United States,United States of America</value>
             </criteriaItems>
         </ruleEntry>
+        <ruleEntry>
+            <assignedTo>My_New_Queue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+        </ruleEntry>
     </assignmentRule>
 </AssignmentRules>

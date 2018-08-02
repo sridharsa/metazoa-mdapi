@@ -8,6 +8,10 @@
         <plural>true</plural>
         <value>My test Article Types</value>
     </caseValues>
+    <fieldSets>
+        <label><!-- My Test Field Label --></label>
+        <name>My_Test_Field_Label</name>
+    </fieldSets>
     <fields>
         <label><!-- My Test Field --></label>
         <name>My_Test_Field__c</name>

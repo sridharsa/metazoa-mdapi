@@ -5,9 +5,10 @@
     <formFactors>Large</formFactors>
     <label>DreamFactory Utilities</label>
     <logo>BLND_Logos_Identity/BLND_DreamFactory_Logo.gif</logo>
-    <tab>BLND_Snapshot</tab>
-    <tab>BLND_Monarch</tab>
-    <tab>BLND_TableTop</tab>
-    <tab>DFSS_SnapShot_Push__c</tab>
-    <tab>FormFactory</tab>
+    <tabs>BLND_Snapshot</tabs>
+    <tabs>BLND_Monarch</tabs>
+    <tabs>BLND_TableTop</tabs>
+    <tabs>DFSS_SnapShot_Push__c</tabs>
+    <tabs>FormFactory</tabs>
+    <tabs>BLND_DFTE_Expense__c</tabs>
 </CustomApplication>
