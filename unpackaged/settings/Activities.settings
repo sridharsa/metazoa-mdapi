@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<ActivitiesSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<allowUsersToRelateMultipleContactsToTasksAndEvents>true</allowUsersToRelateMultipleContactsToTasksAndEvents>
 	<autoRelateEventAttendees>false</autoRelateEventAttendees>
 	<enableActivityReminders>true</enableActivityReminders>
@@ -19,4 +19,4 @@
 	<showEventDetailsMultiUserCalendar>false</showEventDetailsMultiUserCalendar>
 	<showHomePageHoverLinksForEvents>true</showHomePageHoverLinksForEvents>
 	<showMyTasksHoverLinks>true</showMyTasksHoverLinks>
-</Settings>
+</ActivitiesSettings>

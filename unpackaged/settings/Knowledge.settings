@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<KnowledgeSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<answers>
 		<enableArticleCreation>false</enableArticleCreation>
 	</answers>
 	<cases>
-		<articlePDFCreationProfile>custom: support profile</articlePDFCreationProfile>
-		<articlePublicSharingSites>
-			<site>My_New_SS_Site</site>
-		</articlePublicSharingSites>
 		<enableArticleCreation>false</enableArticleCreation>
-		<enableArticlePublicSharingSites>true</enableArticlePublicSharingSites>
+		<enableArticlePublicSharingSites>false</enableArticlePublicSharingSites>
 		<enableCaseDataCategoryMapping>true</enableCaseDataCategoryMapping>
-		<useProfileForPDFCreation>true</useProfileForPDFCreation>
+		<useProfileForPDFCreation>false</useProfileForPDFCreation>
 	</cases>
 	<defaultLanguage>en_US</defaultLanguage>
 	<enableChatterQuestionKBDeflection>false</enableChatterQuestionKBDeflection>
 	<enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
 	<enableExternalMediaContent>true</enableExternalMediaContent>
 	<enableKnowledge>true</enableKnowledge>
-	<enableLightningKnowledge>false</enableLightningKnowledge>
-	<showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
+	<enableKnowledgeArticleTextHighlights>true</enableKnowledgeArticleTextHighlights>
+	<enableKnowledgeKeywordAutoComplete>true</enableKnowledgeKeywordAutoComplete>
+	<enableKnowledgeTitleAutoComplete>true</enableKnowledgeTitleAutoComplete>
+	<enableLightningKbAutoLoadRichTextField>true</enableLightningKbAutoLoadRichTextField>
+	<enableLightningKnowledge>true</enableLightningKnowledge>
+	<showArticleSummariesCustomerPortal>false</showArticleSummariesCustomerPortal>
 	<showArticleSummariesInternalApp>false</showArticleSummariesInternalApp>
-	<showArticleSummariesPartnerPortal>true</showArticleSummariesPartnerPortal>
-	<showValidationStatusField>true</showValidationStatusField>
+	<showArticleSummariesPartnerPortal>false</showArticleSummariesPartnerPortal>
+	<showValidationStatusField>false</showValidationStatusField>
 	<suggestedArticles>
 		<caseFields>
 			<field>
 				<name>Subject</name>
 			</field>
 		</caseFields>
-		<useSuggestedArticlesForCase>true</useSuggestedArticlesForCase>
+		<useSuggestedArticlesForCase>false</useSuggestedArticlesForCase>
 		<workOrderFields>
 			<field>
 				<name>Subject</name>
@@ -41,4 +41,4 @@
 			</field>
 		</workOrderLineItemFields>
 	</suggestedArticles>
-</Settings>
+</KnowledgeSettings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<FileUploadAndDownloadSecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<dispositions>
 		<behavior>HYBRID</behavior>
 		<fileType>AVI</fileType>
@@ -126,4 +126,4 @@
 		<securityRiskFileType>true</securityRiskFileType>
 	</dispositions>
 	<noHtmlUploadAsAttachment>false</noHtmlUploadAsAttachment>
-</Settings>
+</FileUploadAndDownloadSecuritySettings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<MobileSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<chatterMobile>
 		<enablePushNotifications>true</enablePushNotifications>
 	</chatterMobile>
@@ -16,4 +16,4 @@
 		<enableTouchBrowserIPad>false</enableTouchBrowserIPad>
 		<enableVisualforceInTouch>false</enableVisualforceInTouch>
 	</touchMobile>
-</Settings>
+</MobileSettings>

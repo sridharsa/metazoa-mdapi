@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings
+<Territory2Settings
 	xmlns="http://soap.sforce.com/2006/04/metadata"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<defaultAccountAccessLevel>Edit</defaultAccountAccessLevel>
@@ -11,4 +11,4 @@
 		<enableFilter>false</enableFilter>
 		<runOnCreate>false</runOnCreate>
 	</opportunityFilterSettings>
-</Settings>
+</Territory2Settings>

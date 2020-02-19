@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<networkAccess>
 		<ipRanges>
 			<description>Sridhar home</description>
@@ -53,4 +53,4 @@
 		<securityCentralKillSession>true</securityCentralKillSession>
 		<sessionTimeout>FourHours</sessionTimeout>
 	</sessionSettings>
-</Settings>
+</SecuritySettings>

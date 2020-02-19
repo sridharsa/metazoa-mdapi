@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<CaseSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<caseAssignNotificationTemplate>unfiled$public/SupportCaseAssignmentNotification</caseAssignNotificationTemplate>
 	<caseCreateNotificationTemplate>unfiled$public/SupportCaseCreatedPhoneInquiries</caseCreateNotificationTemplate>
 	<caseFeedItemSettings>
@@ -40,4 +40,4 @@
 		<defaultResponseTemplate>unfiled$public/SupportCaseCreatedWebInquiries</defaultResponseTemplate>
 		<enableWebToCase>true</enableWebToCase>
 	</webToCase>
-</Settings>
+</CaseSettings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<ForecastingSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<enableForecasts>true</enableForecasts>
 	<forecastingCategoryMappings>
 		<forecastingItemCategoryApiName>commitonly</forecastingItemCategoryApiName>
@@ -3568,4 +3568,4 @@
 			<showQuotas>true</showQuotas>
 		</quotasSettings>
 	</forecastingTypeSettings>
-</Settings>
+</ForecastingSettings>

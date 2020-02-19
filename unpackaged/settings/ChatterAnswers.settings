@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<ChatterAnswersSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<emailFollowersOnBestAnswer>true</emailFollowersOnBestAnswer>
 	<emailFollowersOnReply>true</emailFollowersOnReply>
 	<emailOwnerOnPrivateReply>true</emailOwnerOnPrivateReply>
@@ -12,4 +12,4 @@
 	<enableRichTextEditor>false</enableRichTextEditor>
 	<facebookAuthProvider>FB_Auth_Provider</facebookAuthProvider>
 	<showInPortals>false</showInPortals>
-</Settings>
+</ChatterAnswersSettings>

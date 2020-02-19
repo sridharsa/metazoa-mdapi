@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<BusinessHoursSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<businessHours>
 		<active>true</active>
 		<default>true</default>
@@ -20,4 +20,4 @@
 		<wednesdayEndTime>00:00:00.000Z</wednesdayEndTime>
 		<wednesdayStartTime>00:00:00.000Z</wednesdayStartTime>
 	</businessHours>
-</Settings>
+</BusinessHoursSettings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<SearchSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<documentContentSearchEnabled>true</documentContentSearchEnabled>
 	<optimizeSearchForCJKEnabled>false</optimizeSearchForCJKEnabled>
 	<recentlyViewedUsersForBlankLookupEnabled>true</recentlyViewedUsersForBlankLookupEnabled>
@@ -622,4 +622,4 @@
 	<sidebarLimitToItemsIOwnCheckboxEnabled>true</sidebarLimitToItemsIOwnCheckboxEnabled>
 	<singleSearchResultShortcutEnabled>true</singleSearchResultShortcutEnabled>
 	<spellCorrectKnowledgeSearchEnabled>false</spellCorrectKnowledgeSearchEnabled>
-</Settings>
+</SearchSettings>

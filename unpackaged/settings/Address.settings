@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Settings xmlns="http://soap.sforce.com/2006/04/metadata">
+<AddressSettings xmlns="http://soap.sforce.com/2006/04/metadata">
 	<countriesAndStates>
 		<countries>
 			<active>true</active>
@@ -4962,4 +4962,4 @@
 			<visible>true</visible>
 		</countries>
 	</countriesAndStates>
-</Settings>
+</AddressSettings>
